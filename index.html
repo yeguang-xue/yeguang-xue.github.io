@@ -1,0 +1,25 @@
+---
+layout: default
+title: Yeguang Xue's Page
+---
+
+<div id="home">
+
+  <h1>Highlights</h1>
+  <ul class="posts">
+	<li><span>25 May 2013</span> &raquo; Nothing Now</li>
+  </ul>
+
+  <h1>Blog Posts</h1>
+  <ul class="posts">
+    {% for post in site.posts %}
+      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
+    {% endfor %}
+  </ul>
+
+  <h1>External Links</h1>
+  <ul class="posts">
+	<li><span>25 May 2013</span> &raquo; You can visit my <a href="https://plus.google.com/u/0/107251975675499374486/posts/p/pub">Google+ Page</a></li>
+  </ul>
+
+</div>
