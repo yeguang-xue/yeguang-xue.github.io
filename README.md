@@ -1,5 +1,10 @@
-# My Blog Test
+# Yeguang Xue's Blog 
 
-follow Tom's Page
-http://tom.preston-werner.com/
-http://github.com/mojombo/jekyll
+## 
+
+## Credits
+[Templete](http://github.com/mojombo/jekyll) from Tom's Page
+
+
+
+
