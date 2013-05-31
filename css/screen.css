@@ -4,6 +4,12 @@
 /*
 /*****************************************************************************/
 
+/* self-defined */
+div.equation {  text-align: center; }
+body { counter-reset:equation 0; }
+div.equation:before { counter-increment:equation; content: "(" counter(equation) ")"; float:right; }
+
+
 /* Global Reset */
 
 * {
@@ -151,6 +157,8 @@ ul.posts {
 #post {
 
 }
+
+
 
   /* standard */
 

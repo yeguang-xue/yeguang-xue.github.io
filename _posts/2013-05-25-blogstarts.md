@@ -15,3 +15,7 @@ I will publish some interesting research projects of my own here.
 It's simple but quite cool :)
 
 这是中文的测试
+
+This is a test for formulas
+
+<p>\( \frac{1}{n} \sum_{i=i}^{n} x_{i} \)</p>
