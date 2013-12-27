@@ -1,21 +1,16 @@
-# Yeguang Xue's Blog 
+# Yeguang Xue's Website 
 
-## 
+## Layouts
 
-## layouts
+1. defaults.html: index.html, blog.html, research.html
+2. empty.html: interests/, research/
+3. post.html: \_post/
 
-defaults.html: index.html, blog.html, research.html
+## Plan
 
-empty.html: interests/, research/
-
-post.html: \_post/
-
+1. Use more flexible layouts for home pages (home blog research)
+2. Update research pages
+3. Add "Fork me on Github" on homepage
 
 ## Credits
-[Templete](http://github.com/mojombo/jekyll) from Tom's Page
-
-## test of formulas in README
-
-$\frac{1}{n} \sum_{i=i}^{n} x_{i}$
-
-
+[Templete](http://github.com/mojombo/) originated from Tom
