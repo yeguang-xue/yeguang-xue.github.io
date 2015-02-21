@@ -70,9 +70,13 @@ ul.lists li {
     line-height: 1.75em;
 }
 
-ul.posts {
-    list-style-type: none;
-    margin-bottom: 0em;
+ul.lists li {
+    line-height: 1.75em;
+}
+
+ul.posts a{
+    target-name: new;
+    target-new: tab;
 }
 
 ul.posts li {
