@@ -46,11 +46,6 @@ a:visited {
     color: #a0a;
 }
 
-a.outside {
-    target-name:new;
-    target-new:tab;
-}
-
 table {
     font-size: inherit;
     font: 100%;
@@ -72,11 +67,6 @@ ul.lists li {
 
 ul.lists li {
     line-height: 1.75em;
-}
-
-ul.posts a{
-    target-name: new;
-    target-new: tab;
 }
 
 ul.posts li {
