@@ -46,6 +46,11 @@ a:visited {
     color: #a0a;
 }
 
+a.outside {
+    color: #00a;
+    target-new:tab;
+}
+
 table {
     font-size: inherit;
     font: 100%;
