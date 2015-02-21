@@ -54,7 +54,15 @@ table {
 ul.paragraph {
     list-style-type: disc;
     list-style-position: inside;
-    margin-bottom: 0em;
+}
+
+ul.lists {
+    list-style-type: disc;
+    list-style-position: inside;
+}
+
+ul.lists li {
+    line-height: 1.75em;
 }
 
 ul.posts {
@@ -79,7 +87,7 @@ ol.ref {
 }
 
 ol.ref li {
-    line-height: 1em;
+    line-height: 1.2em;
 }
 /*****************************************************************************/
 /* Site Class
