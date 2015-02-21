@@ -73,11 +73,13 @@ ul.posts span {
 }
 
 ol.ref {
+    list-style-type: decimal;
+    list-style-position: inside;
     margin-bottom: 0em;
 }
 
 ol.ref li {
-    line-height: 1.75em;
+    line-height: 1em;
 }
 /*****************************************************************************/
 /* Site Class
