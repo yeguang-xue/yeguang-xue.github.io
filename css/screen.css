@@ -86,7 +86,7 @@ ol.ref {
 }
 
 ol.ref li {
-    line-height: 1.2em;
+    line-height: 1.5em;
 }
 /*****************************************************************************/
 /* Site Class
@@ -102,6 +102,7 @@ ol.ref li {
 
 .title {
     color: #a00;
+    font-size: 120%;
     font-weight: bold;
     margin-bottom: 2em;
 }
