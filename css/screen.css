@@ -65,8 +65,8 @@ ul.lists li {
     line-height: 1.75em;
 }
 
-ul.lists li {
-    line-height: 1.75em;
+ul.posts {
+    list-style-type: none;
 }
 
 ul.posts li {
