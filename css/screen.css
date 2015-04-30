@@ -35,15 +35,16 @@ p {
 }
 
 a {
-    color: #00a;
+    color: #000066;
+    text-decoration: none;
 }
 
 a:hover {
-    color: black;
+    color: #0000CC;
 }
 
 a:visited {
-    color: #a0a;
+    color: #000066;
 }
 
 table {
@@ -86,10 +87,10 @@ ol.ref {
 }
 
 ol.ref li {
-    line-height: 1.5em;
+    line-height: 1.2em;
 }
 /*****************************************************************************/
-/* Site Class
+/* Site Class Title Class
 /*****************************************************************************/
 
 .site {
@@ -156,7 +157,6 @@ ol.ref li {
 .site .footer .rss img {
     border: 0;
 }
-
 
 /*****************************************************************************/
 /* Posts
