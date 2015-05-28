@@ -63,15 +63,23 @@ ul.lists {
 }
 
 ul.lists li {
-    line-height: 1.75em;
+    line-height: 1.5em;
+    margin-bottom: 0.6em;
 }
+
+ul.lists span {
+    display: block;
+    padding-left: 1em;
+}
+
 
 ul.posts {
     list-style-type: none;
 }
 
 ul.posts li {
-    line-height: 1.75em;
+    line-height: 1.5em;
+    margin-bottom: 0.6em;
 }
 
 ul.posts span {
