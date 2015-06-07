@@ -1,0 +1,40 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+  height: 100%;
+  background-color: #FFFFF4;
+  font: 14px helvetica, arial, clean, sans-serif;
+  font-size: small;
+}
+
+main {
+    font-size: 110%;
+  text-align: justify;
+  width: 42em;
+  margin: 3em auto 2em auto;
+  line-height: 1.5em;
+}
+
+main h1 {
+  font-size: 120%;
+  margin-bottom: 1em;
+  margin-top: 2em;
+}
+
+main h2 {
+  font-size: 110%;
+}
+
+main p {
+  margin: 1em 0;
+}
+
+main ol {
+  list-style-type: decimal;
+  list-style-position: inside;
+  margin-bottom: 0em;
+}
