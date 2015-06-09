@@ -1,0 +1,38 @@
+---
+layout: default
+title: Researches of Yeguang
+---
+
+<!-- Main Frame -->
+
+<h1>Research Highlights</h1>
+<ul class="lists">
+  <!-- <li><a href="/research/2014-zju.html">MD simulation of myosin (ZJU)</a></li> -->
+  <li><a href="/research/2013-csst.html">Symmetry of Virus Capsids (UCLA CSST Project)</a></li>
+</ul>
+
+
+<h1>Current Advisor</h1>
+
+<ul class="lists">
+  <li>
+     <a href="http://www.mccormick.northwestern.edu/research-faculty/directory/profiles/huang-yonggang.html">Prof. Yonggang Huang</a> <br />
+     <span>Joseph Cummings Professor of Civil and Environmental Engineering and Mechanical Engineering, </span>
+     <span>Northwestern University</span>
+  </li>
+</ul>
+
+<h1>Former Advisor(s)</h1>
+
+<ul class="lists">
+  <li>
+     <a href="http://mypage.zju.edu.cn/chenbin">Prof. Bin Chen</a> <br />
+     <span> Professor of Mechanical Engineering, </span>
+     <span> Zhejiang University </span>
+  </li>
+  <li>
+     <a href="http://www.seas.ucla.edu/~klug">Prof. William S. Klug</a> <br />
+     <span>Assocaite Professor of Mechanical and Aerospace Engineering, </span>
+     <span>University of California Los Angeles</span>
+  </li>
+</ul>

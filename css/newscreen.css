@@ -1,40 +1,142 @@
 
 * {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 html, body {
-  height: 100%;
+  width: 42em;
+  margin-left: auto;
+  margin-right: auto;
   background-color: #FFFFF4;
   font: 14px helvetica, arial, clean, sans-serif;
   font-size: small;
 }
 
-main {
-    font-size: 110%;
+a {
+  color: #000066;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #000066;
+}
+
+/******************************/
+/*       Navigation Bar       */
+/******************************/
+
+nav {
+  font-size: 120%;
   text-align: justify;
-  width: 42em;
-  margin: 3em auto 2em auto;
+  margin-top: 3em;
+  margin-bottom: 2em;
   line-height: 1.5em;
 }
 
-main h1 {
+nav span.name{
+  font-weight: bold;
+}
+
+nav span.name a{
+  color: #0066FF;
+}
+
+nav span.name a:hover{
+  color: #660066;
+}
+
+nav span.menu{
+  font-weight: bold;
+  margin-left: 1em;
+}
+
+nav span.menu a{
+  color: #aaa;
+}
+
+nav span.menu a:hover{
+  color: black;
+}
+
+/******************************/
+/*         Main Cotent        */
+/******************************/
+
+main {
+  font-size: 110%;
+  text-align: justify;
+  margin-top: 2em;
+  margin-bottom: 2em;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 1.5em;
+}
+
+main h1,h2,h3 {
   font-size: 120%;
   margin-bottom: 1em;
   margin-top: 2em;
 }
 
-main h2 {
-  font-size: 110%;
+main hr {
+  margin-bottom: 1em;
 }
 
 main p {
-  margin: 1em 0;
+  margin-top: 1em;
+  margin-left: 0;
 }
 
 main ol {
   list-style-type: decimal;
   list-style-position: inside;
   margin-bottom: 0em;
+}
+
+main ol li{
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+}
+
+main ul {
+  list-style-position: inside;
+  margin-bottom: 0em;
+}
+
+main ul li{
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+}
+
+/******************************/
+/*           Footer           */
+/******************************/
+
+footer {
+  width: 42em;
+  color: #666;
+  font-size: 100%;
+  line-height: 1.5em;
+  border-top: 4px solid #eee;
+  margin-top: 2em;
+  padding-top: 1em;
+  padding-bottom: 2em;
+  float: left;
+}
+
+
+/******************************/
+/*           Others           */
+/******************************/
+
+.visually-hidden {
+  position: absolute !important;
+  clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
+  clip: rect(1px, 1px, 1px, 1px);
+  padding:0 !important;
+  border:0 !important;
+  height: 1px !important;
+  width: 1px !important;
+  overflow: hidden;
 }
