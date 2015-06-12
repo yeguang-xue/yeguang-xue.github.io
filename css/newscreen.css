@@ -26,12 +26,25 @@ a:visited {
 /*       Navigation Bar       */
 /******************************/
 
+header {
+  font-size: 120%;
+  margin-top: 2em;
+  margin-bottom: 1em;
+  line-height: 1em;
+  border-bottom: 4px solid #eee;
+}
+
+header h1 {
+  font-size: 140%;
+  margin-bottom: 1em;
+  margin-top: 2em;
+}
+
 nav {
   font-size: 120%;
   text-align: justify;
-  margin-top: 3em;
-  margin-bottom: 2em;
-  line-height: 1.5em;
+  margin-top: 1em;
+  margin-bottom: 1em;
 }
 
 nav span.name{
@@ -48,7 +61,7 @@ nav span.name a:hover{
 
 nav span.menu{
   font-weight: bold;
-  margin-left: 1em;
+  margin-left: 0.5em;
 }
 
 nav span.menu a{
