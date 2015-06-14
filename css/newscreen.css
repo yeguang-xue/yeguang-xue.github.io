@@ -5,7 +5,7 @@
 }
 
 html, body {
-  width: 42em;
+  width: 48em;
   margin-left: auto;
   margin-right: auto;
   background-color: #FFFFF4;
@@ -18,6 +18,10 @@ a {
   text-decoration: none;
 }
 
+a:hover {
+    color: #0000CC;
+}
+
 a:visited {
   color: #000066;
 }
@@ -27,6 +31,7 @@ a:visited {
 /******************************/
 
 header {
+  width: 48em;
   font-size: 120%;
   margin-top: 2em;
   margin-bottom: 1em;
@@ -78,7 +83,7 @@ nav span.menu a:hover{
 
 main {
   font-size: 110%;
-  text-align: justify;
+  text-align: left;
   margin-top: 2em;
   margin-bottom: 2em;
   margin-left: auto;
@@ -127,7 +132,7 @@ main ul li{
 /******************************/
 
 footer {
-  width: 42em;
+  width: 48em;
   color: #666;
   font-size: 100%;
   line-height: 1.5em;

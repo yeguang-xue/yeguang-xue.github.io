@@ -2,9 +2,7 @@
 
 ## Layouts
 
-1. defaults.html: index.html, blog.html, research.html
-2. empty.html: interests/, research/
-3. post.html: \_post/
+* blank.html,site.html
 
 ## Plan
 
@@ -20,5 +18,5 @@
 
 ## Credits
 
-* [Templete](http://github.com/mojombo/) originated from Tom
+* [Mathjax](http:)
 * Using [Jekyll](https://github.com/jekyll/jekyll)
