@@ -5,7 +5,7 @@
 }
 
 html, body {
-  width: 48em;
+  width: 45em;
   margin-left: auto;
   margin-right: auto;
   background-color: #FFFFF4;
@@ -31,8 +31,8 @@ a:visited {
 /******************************/
 
 header {
-  width: 48em;
-  font-size: 120%;
+  width: 45em;
+  font-size: 100%;
   margin-top: 2em;
   margin-bottom: 1em;
   line-height: 1em;
@@ -132,7 +132,7 @@ main ul li{
 /******************************/
 
 footer {
-  width: 48em;
+  width: 45em;
   color: #666;
   font-size: 100%;
   line-height: 1.5em;
