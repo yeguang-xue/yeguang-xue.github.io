@@ -14,7 +14,7 @@ html {
 }
 
 body {
-  max-width: 42em;
+  max-width: 48em;
   margin-left:auto;
   margin-right:auto;
 }
@@ -91,7 +91,7 @@ nav span.menu a:hover{
 /******************************/
 
 main {
-  font-size: 100%;
+  font-size: 110%;
   text-align: left;
   margin-top: 2em;
   margin-bottom: 2em;
@@ -142,7 +142,7 @@ main ul li{
 
 footer {
   width: 100%;
-  max-width: 42em;
+  max-width: 48em;
   color: #666;
   font-size: 100%;
   line-height: 1.5em;
@@ -167,4 +167,15 @@ footer {
   height: 1px !important;
   width: 1px !important;
   overflow: hidden;
+}
+
+ol.start {
+    counter-reset: mycounter;
+}
+ol.start li, ol.continue li {
+    list-style: none;
+}
+ol.start li:before, ol.continue li:before {
+    content: counter(mycounter) ". ";
+    counter-increment: mycounter;
 }
