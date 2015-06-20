@@ -4,14 +4,21 @@
   padding: 0;
 }
 
-html, body {
-  width: 45em;
-  margin-left: auto;
-  margin-right: auto;
+html {
+  width: 95%;
+  margin-left:auto;
+  margin-right:auto;
   background-color: #FFFFF4;
   font: 14px helvetica, arial, clean, sans-serif;
   font-size: small;
 }
+
+body {
+  max-width: 42em;
+  margin-left:auto;
+  margin-right:auto;
+}
+
 
 a {
   color: #000066;
@@ -19,11 +26,17 @@ a {
 }
 
 a:hover {
-    color: #0000CC;
+  color: #0000CC;
 }
 
 a:visited {
   color: #000066;
+}
+
+h1 {
+  font-size: 150%;
+  margin-bottom: 1.5em;
+  margin-top: 3em;
 }
 
 /******************************/
@@ -31,29 +44,23 @@ a:visited {
 /******************************/
 
 header {
-  width: 45em;
   font-size: 100%;
-  margin-top: 2em;
+  margin-top: 1em;
   margin-bottom: 1em;
-  line-height: 1em;
+  line-height: 1.5em;
   border-bottom: 4px solid #eee;
 }
 
-header h1 {
-  font-size: 140%;
-  margin-bottom: 1em;
-  margin-top: 2em;
-}
-
 nav {
-  font-size: 120%;
-  text-align: justify;
+  text-align: center;
   margin-top: 1em;
   margin-bottom: 1em;
 }
 
 nav span.name{
+  font-size: 120%;
   font-weight: bold;
+  margin-right: 1em;
 }
 
 nav span.name a{
@@ -65,8 +72,10 @@ nav span.name a:hover{
 }
 
 nav span.menu{
+  font-size: 120%;
   font-weight: bold;
-  margin-left: 0.5em;
+  margin-left: 3%;
+  margin-right: 3%;
 }
 
 nav span.menu a{
@@ -82,7 +91,7 @@ nav span.menu a:hover{
 /******************************/
 
 main {
-  font-size: 110%;
+  font-size: 100%;
   text-align: left;
   margin-top: 2em;
   margin-bottom: 2em;
@@ -132,7 +141,8 @@ main ul li{
 /******************************/
 
 footer {
-  width: 45em;
+  width: 100%;
+  max-width: 42em;
   color: #666;
   font-size: 100%;
   line-height: 1.5em;
