@@ -32,7 +32,7 @@ title: Yeguang Xue Curriculum Vitae
 
 ----
 
-* Reviewer: Journal of Applied Mechanics (Transaction of ASME)
+* Reviewer: Journal of Applied Mechanics (Transactions of the ASME)
 
 
 ## Selected Publications
@@ -70,4 +70,4 @@ title: Yeguang Xue Curriculum Vitae
 * CAE software: ABAQUS, ANSYS
 * Molecular simulation: Lammps, Gromacs
 * Front-end web development
-* 
+*
