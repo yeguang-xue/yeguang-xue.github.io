@@ -1,10 +1,10 @@
 ---
-layout: post
+layout: blog
 title: Weak Formulations
 ---
 
 {{ page.title }}
-================
+----------------
 
 NOT FINISHED
 
@@ -16,15 +16,15 @@ During my study in CFD classes last term, I met the concept of _weak_ solution o
 
 In solid mechanics and fluid mechanics, we have the systems of PDE in the form of
 
-<div class="equation"> 
+<div class="equation">
 \begin{equation}
-\textbf{A}(\textbf{u}) =0 \text{ (in } \Omega \text{, the volume)} 
+\textbf{A}(\textbf{u}) =0 \text{ (in } \Omega \text{, the volume)}
 \end{equation}
 </div>
 
 where **A** denotes the differential operator. And the boundary conditions is needed, stated as
 
-<div class="equation"> 
+<div class="equation">
 \begin{equation}
 \textbf{B}(\textbf{u}) =0 \text{ (on } \Gamma \text{, the boundary)}
 \end{equation}
@@ -32,7 +32,7 @@ where **A** denotes the differential operator. And the boundary conditions is ne
 
 As Eq(1) is established everywhere in the defined volume, we should have
 
-<div class="equation"> 
+<div class="equation">
 \begin{equation}
 \int_\Omega \textbf{v}^T \textbf{A}(\textbf{u}) \mathrm{d}\Omega = 0
 \end{equation}
@@ -44,14 +44,14 @@ As Eq(1) is established everywhere in the defined volume, we should have
 \end{equation}
 </div>
 
-where \( \textbf{v} \) and \( \bar{\textbf{v}} \) are arbitrary function vectors. 
+where \( \textbf{v} \) and \( \bar{\textbf{v}} \) are arbitrary function vectors.
 
 
 
 
 <div class="equation">
 \begin{equation}
-\int_\Omega \textbf{v}^T \textbf{A}(\textbf{u}) \mathrm{d}\Omega + \int_\Gamma \bar{\textbf{v}}^T \textbf{B}(\textbf{u}) \mathrm{d}\Gamma = 0 
+\int_\Omega \textbf{v}^T \textbf{A}(\textbf{u}) \mathrm{d}\Omega + \int_\Gamma \bar{\textbf{v}}^T \textbf{B}(\textbf{u}) \mathrm{d}\Gamma = 0
 \end{equation}
 </div>
 
@@ -59,7 +59,7 @@ integration by parts
 
 <div class="equation">
 \begin{equation}
-\int_\Omega \textbf{C}^T(\textbf{v}) \textbf{A}(\textbf{u}) \mathrm{d}\Omega + \int_\Gamma \textbf{D}^T(\bar{\textbf{v}}) \textbf{B}(\textbf{u}) \mathrm{d}\Gamma = 0 
+\int_\Omega \textbf{C}^T(\textbf{v}) \textbf{A}(\textbf{u}) \mathrm{d}\Omega + \int_\Gamma \textbf{D}^T(\bar{\textbf{v}}) \textbf{B}(\textbf{u}) \mathrm{d}\Gamma = 0
 \end{equation}
 </div>
 

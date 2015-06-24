@@ -1,4 +1,4 @@
-# Yeguang Xue's Website 
+# Yeguang Xue's Website
 
 ## Layouts
 
@@ -14,9 +14,9 @@
 ## Functions
 
 * Math formulas
-* Code 
+* Code
 
 ## Credits
 
-* [Mathjax](http:)
-* Using [Jekyll](https://github.com/jekyll/jekyll)
+* [Jekyll](https://github.com/jekyll/jekyll)
+* [Mathjax](https://www.mathjax.org/)

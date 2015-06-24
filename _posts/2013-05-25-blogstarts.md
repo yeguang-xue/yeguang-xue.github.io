@@ -1,21 +1,19 @@
 ---
-layout: post
-title: My Blog Starts
+layout: blog
+title: My Blog Starts Here
 ---
 
 {{ page.title }}
-================
+----------------
 
-<p class="meta">25 May 2013 - Hangzhou </p>
+<p>25 May 2013 - Hangzhou </p>
 
-My first personal blog starts here. 
+My first personal blog starts here!!!
 
-I will publish some interesting research projects of my own here.
+I will publish some personal updates, new knowledge I learned, my original research, literature summary or comments of other things. Of course, I will also show off some web development technologies here.
 
-It's simple but quite cool :)
+This light-weight blog is powered by [Jekyll](http://jekyllrb.com/). It's simple but really cool! I will write more about using Jekyll in later blog posts. Currently the whole website is written with HTML/CSS from scratch. Responsive design and search engine optimization (SEO) is considered throughout the development process.
 
-这是中文的测试
+Other technologies used include
 
-This is a test for formulas
-
-<p>\( \frac{1}{n} \sum_{i=i}^{n} x_{i} \)</p>
+* [MathJax](https://www.mathjax.org/)
