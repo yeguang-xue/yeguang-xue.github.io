@@ -1,10 +1,8 @@
 ---
-layout: blog
+layout: post
 title: Weak Formulations
+published: false
 ---
-
-{{ page.title }}
-----------------
 
 NOT FINISHED
 

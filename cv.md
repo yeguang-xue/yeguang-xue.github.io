@@ -70,4 +70,3 @@ title: Yeguang Xue Curriculum Vitae
 * CAE software: ABAQUS, ANSYS
 * Molecular simulation: Lammps, Gromacs
 * Front-end web development
-*
