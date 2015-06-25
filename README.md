@@ -1,20 +1,15 @@
 # Yeguang Xue's Website
 
-## Layouts
+## Plan (Functions)
 
-* blank.html,site.html
+1. Enable lazy loading
+2. Material design
+3. Rewrite publications page using liquid template (add Abstract)
 
-## Plan
+## Plan (Content)
 
-1. Use more flexible layouts for home pages (home blog research)
-2. Update research pages
-3. Site colors and styles
-4. Some fancy styles for showing pictures
-
-## Functions
-
-* Math formulas
-* Code
+1. Finish the research page
+2. update links
 
 ## Credits
 
