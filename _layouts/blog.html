@@ -1,57 +1,15 @@
 <!DOCTYPE html>
 <html>
+
 <head>
 
-  <meta charset="UTF-8">
-
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-
-  <meta name="author" content="Yeguang Xue" />
-
-  <title>{{ page.title }}</title>
-
-  <!-- CSS -->
-  <link rel="stylesheet" href="/css/sitescreen.css">
-
-  <!-- .ico -->
-  <link rel="shortcut icon" href="/favicon.ico" />
-
-  <!-- Mathjax-->
-  <script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
-
-  <!-- Google Site tools -->
-  <meta name="google-site-verification" content="NDXDEYJ0w4fq64Kr96e58rTXy2cHY0aQ1oCW1C4G2Eo" />
-
-  <!-- Google Track-->
-  <script type="text/javascript">
-
-  var _gaq = _gaq || [];
-  _gaq.push(['_setAccount', 'UA-44779583-1']);
-  _gaq.push(['_trackPageview']);
-
-  (function() {
-    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-  })();
-
-  </script>
+  {% include head.html %}
 
 </head>
 
 <body>
 
-  <h1 class="visually-hidden">Yeguang Xue</h1>
-
-  <header class="blog">
-    <nav>
-      <h2 class="visually-hidden">Menu List</h2>
-      <span>Yeguang's Blog</span>
-      <ul>
-        <li><a href="/">Back to Main Site</a></li>
-      </ul>
-    </nav>
-  </header>
+  {% include header-blog.html %}
 
   <main>
 
@@ -59,15 +17,8 @@
 
   </main>
 
+  {% include footer.html %}
 
-  <footer>
-    <h2 class="visually-hidden">Contact</h1>
-      <p>
-        XUE, YEGAUNG <br />
-        Email: blackholexyg@gmail.com <br />
-        Adress: 2145 Sheridan Road, Tech A160, Evanston, IL, 60208 <br />
-      </p>
-    </footer>
+</body>
 
-  </body>
-  </html>
+</html>

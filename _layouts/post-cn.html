@@ -7,7 +7,6 @@
 
   <!-- Post Specific -->
   <link rel="stylesheet" href="/css/syntax.css">
-  <base target="_blank" />
 
 </head>
 
@@ -17,11 +16,14 @@
 
   <main>
     <section>
-      <h2 class="title-font-1">{{ page.title }}</h2>
-      <p>
-        <span class="meta">{{ page.date | date_to_string }} - {{ page.location }} </span> |
-        <span class="meta">Tags: {{ page.tags | array_to_sentence_string }}</span>
-      </p>
+
+      <div class="chinese-font">
+        <h2 class="title-font-1">{{ page.title-cn }}</h2>
+        <p>
+          <span class="meta">{{ page.date | date_to_string }} - {{ page.location }} </span> |
+          <span class="meta">Tags: {{ page.tags | array_to_sentence_string }}</span>
+        </p>
+      </div>
 
       {{ content }}
 
