@@ -247,11 +247,8 @@ ol.start li:before, ol.continue li:before {
   font-size: 140%;
 }
 
-.chinese-font p{
-  font-family: "Microsoft Yahei","微软雅黑","WenQuanYi Micro Hei";
-}
 .chinese-font p, .chinese-font h1, .chinese-font h2, .chinese-font h3, .chinese-font h4{
-  font-family: "Microsoft Yahei","微软雅黑","WenQuanYi Micro Hei";
+  font-family: "Microsoft Yahei","微软雅黑","WenQuanYi Micro Hei",sans-serif;
 }
 
 blockquote {
