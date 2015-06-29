@@ -1,12 +1,8 @@
 .highlight  {
   background: GhostWhite;
-  width: 90%;
-  padding-left: 2%;
-  padding-right: 2%;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 1em;
-  margin-bottom: 1em;
+  border: 1px solid #ccc;
+  margin: 1.5em 1em;
+  padding: 0.5em 0.5em;
 }
 
 .highlight .c { color: #999988; font-style: italic } /* Comment */
