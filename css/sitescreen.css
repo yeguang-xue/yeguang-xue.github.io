@@ -177,6 +177,9 @@ main ul li{
   margin-bottom: 0.5em;
 }
 
+main a {
+  text-decoration: underline;
+}
 /******************************/
 /*           Footer           */
 /******************************/
@@ -251,6 +254,8 @@ ol.start li:before, ol.continue li:before {
   font-family: "Microsoft Yahei","微软雅黑","WenQuanYi Micro Hei",sans-serif;
 }
 
+/*  blockquote  */
+
 blockquote {
   background: GhostWhite;
   border-left: 10px solid #ccc;
@@ -268,4 +273,20 @@ blockquote:before {
 }
 blockquote p {
   display: inline;
+}
+
+/*  Card  */
+.display-card-wide {
+  padding: 0.5em 1em;
+  margin: 1.5em 1em;
+  box-shadow:0 2px 4px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12) !important;
+}
+
+.display-card-narrow {
+  max-width: 80%;
+  width: 360px;
+  text-align: center;
+  padding: 0.5em 1em;
+  margin: 1.5em auto;
+  box-shadow:0 2px 4px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12) !important;
 }
