@@ -251,6 +251,7 @@ ol.start li:before, ol.continue li:before {
 }
 
 .chinese-font p, .chinese-font h1, .chinese-font h2, .chinese-font h3, .chinese-font h4{
+  text-align: left;
   font-family: "Microsoft Yahei","微软雅黑","WenQuanYi Micro Hei",sans-serif;
 }
 
