@@ -202,46 +202,8 @@ footer p {
 }
 
 /******************************/
-/*           Others           */
+/*           Fonts            */
 /******************************/
-
-.visually-hidden {
-  position: absolute !important;
-  clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
-  clip: rect(1px, 1px, 1px, 1px);
-  padding:0 !important;
-  border:0 !important;
-  height: 1px !important;
-  width: 1px !important;
-  overflow: hidden;
-}
-
-span.meta{
-  color: #666;
-  font-family: "Comic Sans MS", cursive, sans-serif;
-  font-size: 90%;
-}
-
-span.monospace{
-  color: #666;
-  font-family: "Courier New", Courier, monospace;
-  font-size: 90%;
-}
-
-ul.posts{
-  list-style-type: none;
-}
-
-ol.start {
-  counter-reset: mycounter;
-}
-ol.start li, ol.continue li {
-  list-style: none;
-}
-ol.start li:before, ol.continue li:before {
-  content: counter(mycounter) ". ";
-  counter-increment: mycounter;
-}
 
 .title-font-1 {
   font-size: 160%;
@@ -254,6 +216,23 @@ ol.start li:before, ol.continue li:before {
 .chinese-font p, .chinese-font h1, .chinese-font h2, .chinese-font h3, .chinese-font h4{
   text-align: left;
   font-family: "Microsoft Yahei","微软雅黑","WenQuanYi Micro Hei",sans-serif;
+}
+
+/******************************/
+/*       MISCELLANEOUS        */
+/******************************/
+
+/*  Continuous Numbering  */
+
+ol.start {
+  counter-reset: mycounter;
+}
+ol.start li, ol.continue li {
+  list-style: none;
+}
+ol.start li:before, ol.continue li:before {
+  content: counter(mycounter) ". ";
+  counter-increment: mycounter;
 }
 
 /*  blockquote  */
@@ -277,7 +256,8 @@ blockquote p {
   display: inline;
 }
 
-/*  Card  */
+/* Card Display */
+
 .display-card-wide {
   padding: 0.5em 1em;
   margin: 1.5em 1em;
@@ -291,4 +271,43 @@ blockquote p {
   padding: 0.5em 1em;
   margin: 1.5em auto;
   box-shadow:0 2px 4px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12) !important;
+}
+
+/* List of Post */
+
+ul.posts{
+  list-style-type: none;
+}
+
+/* Meta Information for Posts */
+
+span.meta{
+  color: #666;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  font-size: 90%;
+}
+
+span.monospace{
+  color: #666;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 90%;
+}
+
+/* Hidden */
+
+.visually-hidden {
+  position: absolute !important;
+  clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
+  clip: rect(1px, 1px, 1px, 1px);
+  padding:0 !important;
+  border:0 !important;
+  height: 1px !important;
+  width: 1px !important;
+  overflow: hidden;
+}
+
+/* Hr */
+hr.divide {
+	border-top: 2px groove #8c8b8b;
+  margin: 2em 0;
 }
