@@ -25,16 +25,33 @@
 
       {{ content }}
 
+      <hr class="divide-gradient" />
+
       <h3>Related Posts</h3>
       <ul class="posts">
         {% for post in site.related_posts limit:3 %}
           <li><span class="monospace">{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
         {% endfor %}
       </ul>
+
+      <hr class="divide-gradient" />
+
+      <h3>License</h3>
+      {% include license.html %}
+
     </section>
+
+    {% if page.comments %}
+
+      <hr class="divide-gradient" />
+
+      {% include comments.html %}
+
+    {% endif %}
+
   </main>
 
-  {% include footer-post.html %}
+  {% include footer.html %}
 
 </body>
 

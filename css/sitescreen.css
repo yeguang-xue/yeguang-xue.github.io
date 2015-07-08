@@ -47,8 +47,8 @@ header.mainsite {
   margin-top: 1em;
   margin-bottom: 1em;
   line-height: 1em;
-  border-bottom: 4px solid #eee;
-  border-top: 4px solid #eee;
+  border-bottom: 2px solid #ccc;
+  border-top: 2px solid #ccc;
 }
 
 header.mainsite nav {
@@ -80,7 +80,7 @@ header.blog {
   font-size: 100%;
   margin-top: 3em;
   margin-bottom: 3em;
-  border-bottom: 4px solid #eee;
+  border-bottom: 2px solid #ccc;
 }
 
 header.blog nav {
@@ -190,7 +190,7 @@ footer {
   color: #666;
   font-size: 100%;
   line-height: 1.5em;
-  border-top: 4px solid #eee;
+  border-top: 2px solid #ccc;
   margin-top: 1em;
   padding-top: 1em;
   padding-bottom: 2em;
@@ -307,7 +307,39 @@ span.monospace{
 }
 
 /* Hr */
+hr.divide-light {
+  border-top: 1px solid #ccc;
+	margin: 2em 0;
+}
+
+hr.divide-gradient {
+  border: 0;
+  height: 1px;
+  background: #333;
+  background-image: linear-gradient(to right, #ccc, #333, #ccc);
+	margin: 2em 0;
+}
+
 hr.divide {
-	border-top: 2px groove #8c8b8b;
-  margin: 2em 0;
+  border-top: 2px solid;
+	margin: 2em 0;
+}
+
+hr.style-three {
+margin: 2em 0;
+height: 30px;
+border-style: solid;
+border-color: black;
+border-width: 1px 0 0 0;
+border-radius: 20px;
+}
+hr.style-three:before {
+display: block;
+content: "";
+height: 30px;
+margin-top: -31px;
+border-style: solid;
+border-color: black;
+border-width: 0 0 1px 0;
+border-radius: 20px;
 }

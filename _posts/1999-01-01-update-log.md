@@ -2,14 +2,29 @@
 layout: post
 title: Website Update Log
 location: Earth
-date: 2015-07-06
+date: 2015-07-08
 permalink: /permalinklo/update_log
 tags:
   - Log
   - Blog
+comments: True
 ---
 
 This post contains a list of update logs.
+
+### 2015-07-08
+
+#### Summary
+
+* Update CSS for horizontal line style
+* Add comment function
+
+#### Credit
+
+* [Simple styles for &lt;hr&gt;](https://css-tricks.com/examples/hrs/)
+* [Disqus](https://disqus.com/)
+
+<hr class="divide-gradient" />
 
 ### 2015-07-06
 
@@ -23,7 +38,7 @@ This post contains a list of update logs.
 * [Creative Commons](http://creativecommons.org/)
 * [Improve Code Highlighting in a Jekyll-based Blog Site](https://demisx.github.io/jekyll/2014/01/13/improve-code-highlighting-in-jekyll.html)
 
-<hr class="divide" />
+<hr class="divide-gradient" />
 
 ### 2015-07-02
 
@@ -35,7 +50,7 @@ This post contains a list of update logs.
 
 * [W3 CSS](http://www.w3schools.com/w3css/)
 
-<hr class="divide" />
+<hr class="divide-gradient" />
 
 ### 2015-06-29
 
@@ -47,5 +62,3 @@ This post contains a list of update logs.
 #### Credit
 
 * [Simple and Nice Blockquote Styling](https://css-tricks.com/snippets/css/simple-and-nice-blockquote-styling/)
-
-<hr class="divide" />
