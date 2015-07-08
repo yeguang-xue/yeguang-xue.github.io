@@ -3,7 +3,7 @@ layout: post
 title: Website Update Log
 location: Earth
 date: 2015-07-08
-permalink: /permalinklo/update_log
+permalink: /permalinks/update_log
 tags:
   - Log
   - Blog
