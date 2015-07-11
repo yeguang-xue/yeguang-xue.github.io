@@ -3,7 +3,7 @@ layout: post
 title: Website Update Log
 location: Earth
 date: 2015-07-08
-permalink: /permalinklo/update_log
+permalink: /permalink/update_log
 tags:
   - Log
   - Blog
@@ -62,3 +62,5 @@ This post contains a list of update logs.
 #### Credit
 
 * [Simple and Nice Blockquote Styling](https://css-tricks.com/snippets/css/simple-and-nice-blockquote-styling/)
+
+<hr class="divide-gradient" />
