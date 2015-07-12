@@ -6,5 +6,6 @@ _site/
 .asv
 *.*~
 
-## Other
+## Test
 lab.html
+lab/
