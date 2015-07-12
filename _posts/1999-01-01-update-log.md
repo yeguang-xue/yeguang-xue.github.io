@@ -2,7 +2,7 @@
 layout: post
 title: Website Update Log
 location: Earth
-date: 2015-07-08
+date: 2015-07-12
 permalink: /permalink/update_log
 tags:
   - Log
@@ -11,6 +11,14 @@ comments: True
 ---
 
 This post contains a list of update logs.
+
+### 2015-07-12
+
+#### Summary
+
+* Add atom feed xml
+
+<hr class="divide-gradient" />
 
 ### 2015-07-08
 
