@@ -2,7 +2,6 @@
 layout: post
 title: My Blog Starts Here
 location: Hangzhou
-permalink: /blog/:year/:month/:day/:title/
 tags:
   - Blog
 ---

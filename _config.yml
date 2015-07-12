@@ -3,5 +3,10 @@ highlighter: pygments
 gems:
   - jemoji
 
+permalink: /blog/:year/:month/:day/:title
+
 collections:
 - publications
+
+paginate: 3
+paginate_path: "/lab/page:num/"
