@@ -199,7 +199,20 @@ footer {
 }
 
 footer p {
-  font-size: 80%;
+  font-size: 90%;
+}
+
+footer a {
+  color: #666;
+  text-decoration: underline;
+}
+
+footer a:visited{
+  color: #666;
+}
+
+footer a:hover{
+  color: black;
 }
 
 /******************************/
@@ -343,4 +356,11 @@ hr.style-three:before {
   border-color: black;
   border-width: 0 0 1px 0;
   border-radius: 20px;
+}
+
+/* Feed */
+.feed {
+  margin-left: 3px;
+  padding: 0 0 0 19px;
+  background: url("/images/site/feed-icon-14x14.png") no-repeat 0 50%;
 }
