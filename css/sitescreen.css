@@ -9,7 +9,8 @@ html {
   margin-left:auto;
   margin-right:auto;
   /*background-color: #FFFFF4;*/
-  font: 16px helvetica, arial, clean, sans-serif;
+  font-size: 16px;
+  font-family: 'Helvetica Neue', Arial, 'Hiragino Sans GB', 'Microsoft YaHei', 'WenQuanYi Micro Hei', sans-serif;
 }
 
 body {
@@ -316,7 +317,7 @@ hr.divide-gradient {
   border: 0;
   height: 1px;
   background: #333;
-  background-image: linear-gradient(to right, #ccc, #333, #ccc);
+  background-image: linear-gradient(to right, #fff, #333, #fff);
 	margin: 2em 0;
 }
 
@@ -326,20 +327,20 @@ hr.divide {
 }
 
 hr.style-three {
-margin: 2em 0;
-height: 30px;
-border-style: solid;
-border-color: black;
-border-width: 1px 0 0 0;
-border-radius: 20px;
+  margin: 2em 0;
+  height: 30px;
+  border-style: solid;
+  border-color: black;
+  border-width: 1px 0 0 0;
+  border-radius: 20px;
 }
 hr.style-three:before {
-display: block;
-content: "";
-height: 30px;
-margin-top: -31px;
-border-style: solid;
-border-color: black;
-border-width: 0 0 1px 0;
-border-radius: 20px;
+  display: block;
+  content: "";
+  height: 30px;
+  margin-top: -31px;
+  border-style: solid;
+  border-color: black;
+  border-width: 0 0 1px 0;
+  border-radius: 20px;
 }
