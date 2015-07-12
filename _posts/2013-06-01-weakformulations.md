@@ -6,7 +6,7 @@ published: false
 
 NOT FINISHED
 
-During my study in CFD classes last term, I met the concept of _weak_ solution of partial differential equations. At that time I got much confused of its intertion while didn't spend time to study it carefully. Recently I met this concept again when I am reading a book on Finite Element Method. In fact the _weak_ solution is also a fundenmental concept in FEM. As we see, the nature of computational fluid dynamics and computational solid mechanics is to solve systems of partial differential equations (PDE). Although the PDEs of solid mechanics and fluid dynamics have different mathematical properties and thus we choose different numerical approaches like finite volume method or finite element method, still they share many similarities, especially some fundamental ideas. Here we take a in-depth look at the concept of _weak_ solution.
+During my study in CFD classes last term, I met the concept of _weak_ solution of partial differential equations. At that time I got much confused of its definition while didn't spend time to study it carefully. Recently I met this concept again when I am reading a book on Finite Element Method. In fact the _weak_ solution is also a fundamental concept in FEM. As we see, the nature of computational fluid dynamics and computational solid mechanics is to solve systems of partial differential equations (PDE). Although the PDEs of solid mechanics and fluid dynamics have different mathematical properties and thus we choose different numerical approaches like finite volume method or finite element method, still they share many similarities, especially some fundamental ideas. Here we take a in-depth look at the concept of _weak_ solution.
 
 ##Derivations
 

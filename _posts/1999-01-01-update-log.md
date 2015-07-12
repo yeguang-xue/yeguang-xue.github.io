@@ -39,7 +39,7 @@ This post contains a list of update logs.
 #### Summary
 
 * Add a Creative Commons license
-* Update CSS for code hightlight (word wrap, line number style, line number selection)
+* Update CSS for code highlight (word wrap, line number style, line number selection)
 
 #### Credit
 
