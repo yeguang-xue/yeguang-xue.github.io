@@ -286,6 +286,9 @@ blockquote p {
   margin: 1.5em auto;
   box-shadow:0 2px 4px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12) !important;
 }
+.display-card-narrow iframe{
+  width: 100%;
+}
 
 /* List of Post */
 
