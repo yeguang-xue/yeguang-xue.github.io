@@ -1,6 +1,7 @@
 .highlight  {
   background: GhostWhite;
   font: Monaco, Consolas, "Andale Mono", "DejaVu Sans Mono", monospace;
+  font-size: 14px;
   border: 1px solid #ccc;
   margin: 1.5em 1em;
   padding: 0.5em 0.5em;
