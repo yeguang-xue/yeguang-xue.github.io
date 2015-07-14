@@ -6,7 +6,11 @@
   {% include head.html %}
 
   <!-- Post Specific -->
+
+  <!-- syntax highlight -->
   <link rel="stylesheet" href="/css/syntax.css">
+
+  <!-- basic link behavior -->
   <base target="_blank" />
 
 </head>
@@ -45,15 +49,13 @@
       <h3>License</h3>
       {% include license.html %}
 
+      {% if page.commentIssueId %}
+
+        {% include comments.html %}
+
+      {% endif %}
+
     </section>
-
-    {% if page.comments %}
-
-      <!-- <hr class="divide-light" /> -->
-
-      {% include comments.html %}
-
-    {% endif %}
 
   </main>
 

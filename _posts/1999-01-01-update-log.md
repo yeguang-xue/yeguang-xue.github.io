@@ -7,10 +7,22 @@ permalink: /permalink/update_log
 tags:
   - Log
   - Blog
-comments: True
+commentIssueId: 2
 ---
 
 This post contains a list of update logs.
+
+### 2015-07-14
+
+#### Summary
+
+* Change the comment system. Now the comment system utilizes the Github Issues.
+
+#### Credit
+
+* [GitHub hosted comments for GitHub hosted blogs](http://ivanzuzak.info/2011/02/18/github-hosted-comments-for-github-hosted-blogs.html)
+
+<hr class="divide-gradient" />
 
 ### 2015-07-12
 
