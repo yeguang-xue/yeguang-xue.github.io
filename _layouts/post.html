@@ -9,7 +9,6 @@
 
   <!-- syntax highlight -->
   <link rel="stylesheet" href="/css/syntax.css">
-
   <!-- basic link behavior -->
   <base target="_blank" />
 
@@ -22,11 +21,13 @@
   <main>
     <section>
 
-      {% if page.title-display %}
-        <h2 class="title-font-1">{{ page.title-display }}</h2>
-      {% else %}
-        <h2 class="title-font-1">{{ page.title }}</h2>
-      {% endif %}
+      <h2 class="title-font-1">
+        {% if page.title-display %}
+          {{ page.title-display }}
+        {% else %}
+          {{ page.title }}
+        {% endif %}
+      </h2>
 
       <p>
         <span class="meta">{{ page.date | date_to_string }} - {{ page.location }} </span> |
@@ -34,8 +35,6 @@
       </p>
 
       {{ content }}
-
-      <!-- <hr class="divide-gradient" /> -->
 
       <h3>Related Posts</h3>
       <ul class="posts">
@@ -50,9 +49,8 @@
       {% include license.html %}
 
       {% if page.commentIssueId %}
-
+        <h3>Comments</h3>
         {% include comments.html %}
-
       {% endif %}
 
     </section>

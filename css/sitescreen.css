@@ -67,9 +67,9 @@ header.mainsite nav ul {
 }
 
 header.mainsite nav ul::after{
-    content: '';
-    display: inline-block;
-    width: 100%;
+  content: '';
+  display: inline-block;
+  width: 100%;
 }
 
 header.mainsite nav li {
@@ -197,10 +197,9 @@ footer {
   font-size: 100%;
   line-height: 1.5em;
   border-top: 2px solid #ccc;
-  margin-top: 1em;
+  margin-top: 3em;
   padding-top: 1em;
   padding-bottom: 2em;
-  float: left;
 }
 
 footer p {
@@ -331,7 +330,7 @@ span.monospace{
 /* Hr */
 hr.divide-light {
   border-top: 1px solid #ccc;
-	margin: 2em 0;
+  margin: 2em 0;
 }
 
 hr.divide-gradient {
@@ -339,12 +338,12 @@ hr.divide-gradient {
   height: 1px;
   background: #333;
   background-image: linear-gradient(to right, #fff, #333, #fff);
-	margin: 2em 0;
+  margin: 2em 0;
 }
 
 hr.divide {
   border-top: 2px solid;
-	margin: 2em 0;
+  margin: 2em 0;
 }
 
 hr.style-three {
@@ -376,175 +375,67 @@ hr.style-three:before {
 
 /* Test */
 
-/********************************
-*  COMMENTS
-********************************/
 .comment {
-    background-color: transparent;
-    border-color: #CACACA;
-    border-style: solid;
-    border-width: 1px;
-    color: black;
-    display: block;
-    margin-bottom: 10px;
-    margin-top: 10px;
-    padding: 0px;
-    width: 100%;
-  }
-
-.comment .commentheader {
-  border-bottom-color: #CACACA;
-  border-bottom-style: solid;
-  border-bottom-width: 1px;
-  color: black;
-  background-image: -webkit-linear-gradient(#F8F8F8,#E1E1E1);
-  background-image: -moz-linear-gradient(#F8F8F8,#E1E1E1);
-  color: black;
-  display: block;
-  float: left;
-  font-family: helvetica, arial, freesans, clean, sans-serif;
-  font-size: 12px;
-  font-style: normal;
-  font-variant: normal;
-  font-weight: normal;
-  height: 33px;
-  line-height: 33px;
-  margin: 0px;
-  overflow-x: hidden;
-  overflow-y: hidden;
-  padding: 0px;
-  text-overflow: ellipsis;
-  text-shadow: rgba(255, 255, 255, 0.699219) 1px 1px 0px;
-  white-space: nowrap;
-  width: 100%;
-}
-
-.comment .commentheader .commentgravatar {
-  background-attachment: scroll;
-  background-clip: border-box;
-  background-color: white;
-  background-image: none;
-  background-origin: padding-box;
-  border-color: #C8C8C8;
-  border-style: solid;
-  border-width: 1px;
-  color: black;
-  display: inline-block;
-  float: none;
-  font-family: helvetica, arial, freesans, clean, sans-serif;
-  font-size: 1px;
-  font-style: normal;
-  font-variant: normal;
-  font-weight: normal;
-  height: 20px;
-  line-height: 1px;
-  margin-left: 5px;
-  margin-right: 3px;
-  margin-top: -2px;
-  overflow-x: visible;
-  overflow-y: visible;
-  padding: 1px;
+  background: #F8F8F8;
+  position: relative;
+  margin-left: 64px;
+  margin-bottom: 1em;
   text-overflow: clip;
-  text-shadow: rgba(255, 255, 255, 0.699219) 1px 1px 0px;
-  vertical-align: middle;
-  white-space: nowrap;
-  width: 20px;
 }
 
-.comment .commentheader a:link {
+.comment:before {
+  content:"";
+  position: absolute;
+  right: 100%;
+  top: 12px;
+  width: 0;
+  height: 0;
+  border-top: 8px solid transparent;
+  border-right: 8px solid #E8E8E8;
+  border-bottom: 8px solid transparent;
+}
+
+.comment a{
+  color: black;
   text-decoration: none;
 }
 
-.comment .commentheader a:hover {
-  border-bottom:1px solid;
+.comment a:hover{
+  text-decoration: underline;
 }
 
-
-.comment .commentheader .commentuser {
-  background-color: transparent;
-  color: black;
-  display: inline;
-  float: none;
-  font-family: helvetica, arial, freesans, clean, sans-serif;
-  font-size: 12px;
-  font-style: normal;
-  font-variant: normal;
-  font-weight: bold;
-  height: 0px;
-  line-height: 16px;
-  margin-left: 5px;
-  margin-right: 10px;
-  overflow-x: visible;
-  overflow-y: visible;
-  padding: 0px;
-  text-overflow: clip;
-  text-shadow: rgba(255, 255, 255, 0.699219) 1px 1px 0px;
-  white-space: nowrap;
-  width: 0px;
-}
-
-.comment .commentheader .commentdate {
-  background-color: transparent;
-  color: #777;
-  display: inline;
-  float: none;
-  font-family: helvetica, arial, freesans, clean, sans-serif;
-  font-size: 11px;
-  font-style: normal;
-  font-variant: normal;
-  font-weight: normal;
-  height: 0px;
-  line-height: 33px;
+.commentheader{
+  font-size: 14px;
+  background: #E8E8E8;
+  height: 42px;
+  line-height: 42px;
+  padding-left: 1em;
   margin: 0px;
-  overflow-x: visible;
-  overflow-y: visible;
-  padding: 0px;
-  text-overflow: clip;
-  text-shadow: rgba(255, 255, 255, 0.699219) 1px 1px 0px;
-  white-space: nowrap;
-  width: 20em;
 }
 
-.comment .commentbody {
-  background-attachment: scroll;
-  background-clip: border-box;
-  background-color: transparent;
-  background-image: none;
-  background-origin: padding-box;
-  color: #333;
-  display: block;
-  margin-bottom: 1em;
-  margin-left: 1em;
-  margin-right: 1em;
-  margin-top: 40px;
-  overflow-x: visible;
-  overflow-y: visible;
-  padding: 0em;
-  position: static;
-  width: 96%;
-  word-wrap: break-word;
+.commentgravatar{
+  position: absolute;
+  left: -64px;
+  display: inline;
 }
 
-.comment .commentbody p {
-  margin-bottom: 0.5em;
-  margin-top: 0.5em;
-  margin-left: 0em;
-  margin-right: 0em;
+.commentuser {
+  font-weight: bold;
 }
 
-.comment .commentbody pre {
-  border: 0px solid #ddd;
-  background-color: #eef;
-  padding: 0 .4em;
+.commentdate {
 }
 
-.comment .commentbody pre code {
-  border: 0px solid #ddd;
+.commentbody {
+  background-color: #F8F8F8;
+  border: 1px solid #E8E8E8;
+  padding: 0.5em 1em;
 }
 
-.comment .commentbody code {
-  border: 1px solid #ddd;
-  background-color: #eef;
-  font-size: 85%;
-  padding: 0 .2em;
+.commentbody p{
+}
+
+.commentbody .highlight {
+  border: 0px;
+  background-color: inherit;
 }
