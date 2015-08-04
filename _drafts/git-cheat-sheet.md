@@ -48,11 +48,14 @@ $ git clone [url] [my folder]
 
 {% highlight bash %}
 $ git status
+$ git status -s
+$ git diff
+$ git diff --staged
+$ git diff --cached
 {% endhighlight %}
 
 {% highlight sh %}
-$ git diff
-$ git diff --staged
+#
 {% endhighlight %}
 
 ### Make Changes
