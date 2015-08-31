@@ -47,9 +47,11 @@ title: Yeguang Xue Curriculum Vitae
 
 ----
 
+* 1st Midwest Mechanics of Materials and Structures workshop (Champaign, IL, Aug 26,2015), "*Reversible Adhesion of Shape Memory Relief Structures and its Application in Transfer Printing*".
 
 
 ## Research Experiences
+
 ----
 
 * Cross-disciplinary Scholars in Science and Technology (CSST) program, University of California, Los Angeles,USA. (Advisor: William S. Klug)
