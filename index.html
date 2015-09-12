@@ -23,7 +23,7 @@ title: Yeguang's Page
     <!-- .ico -->
     <link rel="shortcut icon" href="/favicon.ico" />
 
-    {% include google.html %}
+    {% include google-track.html %}
   </head>
 
   <body class="site mdl-color--grey-100 mdl-color-text--grey-700 mdl-base">
@@ -100,23 +100,34 @@ title: Yeguang's Page
 
         <!-- Tab: Research -->
         <div class="mdl-layout__tab-panel" id="research">
-          <section class="section--center mdl-grid mdl-grid--no-spacing">
-            <div class="mdl-cell mdl-cell--12-col">
-              <h4>Research</h4>
+
+          <!-- Card: Overview -->
+          <section class="section--center mdl-grid mdl-grid--no-spacing mdl-shadow--2dp">
+            <div class="mdl-card mdl-cell mdl-cell--12-col">
+              <div class="mdl-card__supporting-text">
+              <h4>Overview</h4>
               <p>
                 My research focuses on developing electronic devices that can be stretched, bend or twisted, which have wide application in bio-sensor and health monitors.
               </p>
-
-              <ul class="toc">
-                <h4>Contents</h4>
-                <a href="#overview">Overview</a>
-                <a href="#adhesion">Key Problems</a>
-              </ul>
-
-              <h4 id="overview">Overview</h4>
               <p>
-                Stretchable electronics
+                A few figures
               </p>
+              </div>
+            </div>
+          </section>
+
+          <!-- Card: Transfer Printing -->
+          <section class="section--center mdl-grid mdl-grid--no-spacing mdl-shadow--2dp">
+            <div class="mdl-card mdl-cell mdl-cell--12-col">
+              <div class="mdl-card__supporting-text">
+              <h4>Advanced Transfer Printing Techniques</h4>
+              <p>
+                Transfer printing is one of the most important technologies in micro/nano assembly.
+              </p>
+              <p>
+                A few figures
+              </p>
+              </div>
             </div>
           </section>
         </div>
@@ -182,15 +193,10 @@ title: Yeguang's Page
               </div>
             </div>
           </section>
-
-          <a href="http://blackholexyg.github.io/blog/" target="_blank" id="view-blog" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-color--accent mdl-color-text--accent-contrast">View Blog</a>
-
         </div>
-
       </main>
 
       {% include footer-site.html %}
-
     </div>
   </body>
 </html>

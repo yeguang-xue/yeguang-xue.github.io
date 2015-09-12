@@ -1,6 +1,6 @@
 ---
 layout: single-article
-title: Yeguang Xue Curriculum Vitae
+title: Curriculum Vitae
 ---
 
 <h4 style="text-align: center">Yeguang Xue</h4>
