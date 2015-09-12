@@ -1,64 +1,196 @@
 ---
-layout: site
-title: Yeguang Xue Home Page
+layout: blank
+title: Yeguang's Page
 ---
 
-<!-- Main Content -->
-<section>
-  <h2>Basic Information</h2>
-  <p>
-    Yeguang Xue is currently a first year Ph.D. student in Mechanical Engineering Department at Northwestern University. He has wide interests in research topics including:
-  </p>
-  <ul>
-    <li> Mechanics modeling and design of stretchable electronics </li>
-    <li> Adhesion in electronic devices</li>
-    <li> Finite element and mesh free methods in computational mechanics</li>
-    <li> Multi-scale modeling of advanced materials </li>
-  </ul>
-  <p>
-    Yeguang has published 2 journal papers in his 1st year of Ph.D. study, including 1 paper in top mechanics journal <i>JMPS</i>. He was invited as reviewer for <i>Journal of Applied Mechanics (Transactions of the ASME)</i>.
-  </p>
-  <p>
-    See Yeguang's Curriculum Vitae:
-    [<a target="_blank" href="/cv.html">HTML</a>] [PDF]
-  </p>
-  <p>
-    See <a target="_blank" href="/blog">Yeguang's Blog</a>
-  </p>
-</section>
+<html>
 
-<section>
-  <h2>Highlights</h2>
-  <ul>
-    <!-- <li><a href="/research/2014-zju.html">MD simulation of myosin (ZJU)</a></li> -->
-    <!-- <li><a href="/research/2013-csst.html">Symmetry of Virus Capsids (UCLA CSST Project)</a></li> -->
-    <li><a href="/research/2014-transferprinting.html">Transfer Printing with Shape Memory Polymer</a></li>
-    <li><a href="">A Free Finite Element Code compatible with Abaqus</a></li>
-  </ul>
-</section>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Yeguang Xue" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<section>
-  <h2>External Links</h2>
-  <ul>
-    <li>
-      <a target="_blank" href="http://www.mccormick.northwestern.edu/research-faculty/directory/profiles/huang-yonggang.html">Professor Yonggang Huang</a>
-      -- Ph.D. advisor
-    </li>
-    <li>
-      <a target="_blank" href="http://rogers.matse.illinois.edu/">Professor John A. Rogers Research Group</a>
-      -- Collaborator group at UIUC
-    </li>
-    <li>
-      <a target="_blank" href="http://www.seas.ucla.edu/~klug/">Professor William S. Klug Research Group</a>
-      -- Computational biomechanics group at UCLA
-    </li>
-    <li>
-      <a target="_blank" href="http://mypage.zju.edu.cn/en/chenbin">Professor Bin Chen</a>
-      -- Undergraduate advisor at ZJU
-    </li>
-    <li>
-      <a target="_blank"  href="http://www.tsinghua.edu.cn/publish/hy/1734/2015/20150325084408139924950/20150325084408139924950_.html">Professor Yihui Zhang</a>
-      -- Associate Professor at Tsinghua University
-    </li>
-  </ul>
-</section>
+    <title>Yeguang's Page with MDL</title>
+
+    <!-- Material Design Lite Library -->
+    <script src="https://storage.googleapis.com/code.getmdl.io/1.0.4/material.min.js"></script>
+    <link rel="stylesheet" href="https://storage.googleapis.com/code.getmdl.io/1.0.4/material.indigo-red.min.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
+
+    <!-- Additional Style Configuration -->
+    <link rel="stylesheet" href="css/site.css">
+
+    <!-- .ico -->
+    <link rel="shortcut icon" href="/favicon.ico" />
+
+    {% include google.html %}
+  </head>
+
+  <body class="site mdl-color--grey-100 mdl-color-text--grey-700 mdl-base">
+
+    <!-- Head Bar -->
+    <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+      <header class="mdl-layout__header mdl-layout__header--scroll mdl-color--primary">
+        <!-- Head Bar Title -->
+        <div class="mdl-layout--large-screen-only mdl-layout__header-row">
+        </div>
+        <div class="mdl-layout--large-screen-only mdl-layout__header-row">
+          <h3>Yeguang Xue</h3>
+        </div>
+        <div class="mdl-layout--large-screen-only mdl-layout__header-row">
+        </div>
+        <!-- Tabs -->
+        <div class="mdl-layout__tab-bar mdl-js-ripple-effect mdl-color--primary-dark">
+          <a href="#home" class="mdl-layout__tab is-active">Home</a>
+          <a href="#research" class="mdl-layout__tab">Research</a>
+          <a href="#publications" class="mdl-layout__tab">Publications</a>
+          <a href="#more" class="mdl-layout__tab">More</a>
+        </div>
+      </header>
+
+      <!-- Main Content -->
+      <main class="mdl-layout__content">
+
+        <!-- Tab: Home -->
+        <div class="mdl-layout__tab-panel is-active" id="home">
+
+          <!-- Card: Brief Introduction -->
+          <section class="section--center mdl-grid mdl-grid--no-spacing mdl-shadow--2dp">
+            <div class="mdl-card mdl-cell mdl-cell--12-col">
+              <div class="mdl-card__supporting-text">
+                <h4>Brief Introduction</h4>
+                <p>
+                  Yeguang Xue is currently a 2nd year Ph.D. student in Mechanical Engineering Department at Northwestern University. He has wide interests in research topics including:
+                </p>
+                <ul>
+                  <li>
+                    Mechanics modeling and design of stretchable electronics
+                  </li>
+                  <li>
+                    Finite element and mesh free methods in computational mechanics
+                  </li>
+                  <li>
+                    Multi-scale modeling of advanced materials
+                  </li>
+                </ul>
+                <p>
+                  Yeguang has published 2 journal papers in his 1st year of Ph.D. study, including 1 paper in top mechanics journal <i>JMPS</i>. He was invited as reviewer for <i>Journal of Applied Mechanics (Transactions of the ASME)</i>.
+                </p>
+              </div>
+              <div class="mdl-card__actions mdl-card--border">
+                <a href="cv.html" target="_blank" class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">Read Yeguang's Full CV</a>
+              </div>
+            </div>
+          </section>
+
+          <!-- Card: News -->
+          <section class="section--center mdl-grid mdl-grid--no-spacing mdl-shadow--2dp">
+            <div class="mdl-card mdl-cell mdl-cell--12-col">
+              <div class="mdl-card__supporting-text">
+                <h4>Research Highlight</h4>
+                <p>Yeguang developed ....
+                </p>
+              </div>
+              <div class="mdl-card__actions mdl-card--border">
+                <a href="#" class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">See related publication</a>
+              </div>
+            </div>
+          </section>
+        </div>
+
+        <!-- Tab: Research -->
+        <div class="mdl-layout__tab-panel" id="research">
+          <section class="section--center mdl-grid mdl-grid--no-spacing">
+            <div class="mdl-cell mdl-cell--12-col">
+              <h4>Research</h4>
+              <p>
+                My research focuses on developing electronic devices that can be stretched, bend or twisted, which have wide application in bio-sensor and health monitors.
+              </p>
+
+              <ul class="toc">
+                <h4>Contents</h4>
+                <a href="#overview">Overview</a>
+                <a href="#adhesion">Key Problems</a>
+              </ul>
+
+              <h4 id="overview">Overview</h4>
+              <p>
+                Stretchable electronics
+              </p>
+            </div>
+          </section>
+        </div>
+
+        <!-- Tab: Publications -->
+        <div class="mdl-layout__tab-panel" id="publications">
+
+          <!-- Card: Profile -->
+          <section class="section--center mdl-grid mdl-grid--no-spacing mdl-shadow--2dp">
+            <div class="mdl-card mdl-cell mdl-cell--12-col">
+              <div class="mdl-card__supporting-text">
+                <h4>Academic Profiles</h4>
+                <ul>
+                  <li>
+                    <a href="http://www.researcherid.com/rid/B-8696-2015">ResearcherID</a>
+                  </li>
+                  <li>
+                    <a href="https://scholar.google.com/citations?user=Dx2UZ0sAAAAJ&hl=en">Google Scholar Citations</a>
+                  </li>
+                  <li>
+                    <a href="#">ORCID</a>
+                  </li>
+                  <li>
+                    <a href="https://www.researchgate.net/profile/Yeguang_Xue">ResearchGate</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </section>
+
+          <!-- Card: 2015 -->
+          <section class="section--center mdl-grid mdl-grid--no-spacing mdl-shadow--2dp">
+            <div class="mdl-card mdl-cell mdl-cell--12-col">
+              <div class="mdl-card__supporting-text">
+                <h4>2015</h4>
+                <ol reversed="reversed">
+                  <li>
+                    <b>Xue, Y.</b>, Zhang, Y., Feng, X., Kim, S., Rogers, J. A., and Huang, Y. (2015). A theoretical model of reversible adhesion in shape memory surface relief structures and its application in transfer printing. <i>Journal of the Mechanics and Physics of Solids</i>, 77, 27-42.
+                    [<a href=http://dx.doi.org/10.1016/j.jmps.2015.01.001>DOI</a>]
+                    [<a href=http://rogers.matse.illinois.edu/files/2015/jmpssmp.pdf>PDF</a>]
+                  </li>
+                  <li>
+                    Zhang, Y., Chad Webb, R., Luo, H., <b>Xue, Y.</b>, Kurniawan, J., Cho, N. H., Krishnan, S., Li, Y., Huang, Y. and Rogers, J. A., "Theoretical and Experimental Studies of Epidermal Heat Flux Sensors for Measurements of Core Body Temperature," <i>Advanced Healthcare Materials</i>. (Article first published online: 7 MAY 2015)
+                    [<a href=http://dx.doi.org/10.1002/adhm.201500110>DOI</a>]
+                  </li>
+                </ol>
+              </div>
+            </div>
+          </section>
+        </div>
+
+        <!-- Tab: More -->
+        <div class="mdl-layout__tab-panel" id="more">
+
+          <section class="section--center mdl-grid mdl-grid--no-spacing mdl-shadow--2dp">
+            <div class="mdl-card mdl-cell mdl-cell--12-col">
+              <div class="mdl-card__supporting-text">
+                <h4>Adress</h4>
+                <p>
+                  Technological Institute (“TECH” Building), A160 <br />
+                  2145 Sheridan Road, Evanston, IL 60208
+                </p>
+              </div>
+            </div>
+          </section>
+
+          <a href="http://blackholexyg.github.io/blog/" target="_blank" id="view-blog" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-color--accent mdl-color-text--accent-contrast">View Blog</a>
+
+        </div>
+
+      </main>
+
+      {% include footer-site.html %}
+
+    </div>
+  </body>
+</html>

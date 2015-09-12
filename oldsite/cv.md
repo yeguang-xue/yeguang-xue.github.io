@@ -1,12 +1,12 @@
 ---
-layout: single-article
+layout: blank
 title: Yeguang Xue Curriculum Vitae
 ---
 
-<h4 style="text-align: center">Yeguang Xue</h4>
+<h1 style="text-align: center">Yeguang Xue</h1>
 
 
-##### Education
+## Education
 
 ----
 
@@ -14,7 +14,7 @@ title: Yeguang Xue Curriculum Vitae
 * B.Eng. Engineering Mechanics (Hons), Zhejiang University, Hangzhou, China.
 
 
-##### Honors and Rewards
+## Honors and Rewards
 
 ----
 
@@ -28,14 +28,14 @@ title: Yeguang Xue Curriculum Vitae
 * Scholarship for Aerospace Technology by China Space Foundation (2011, 2012, 2013)
 * National Scholarship by Ministry of Education of The People's Republic of China (2011)
 
-##### Services
+## Services
 
 ----
 
 * Reviewer: Journal of Applied Mechanics (Transactions of the ASME)
 
 
-##### Selected Publications
+## Selected Publications
 
 ----
 
@@ -43,28 +43,28 @@ title: Yeguang Xue Curriculum Vitae
 2. Zhang, Y., Chad Webb, R., Luo, H., **Xue, Y.**, Kurniawan, J., Cho, N. H., Krishnan, S., Li, Y., Huang, Y. and Rogers, J. A., "Theoretical and Experimental Studies of Epidermal Heat Flux Sensors for Measurements of Core Body Temperature," *Advanced Healthcare Materials*.
 
 
-##### Presentations
+## Presentations
 
 ----
 
 * 1st Midwest Mechanics of Materials and Structures workshop (Champaign, IL, Aug 26,2015), "*Reversible Adhesion of Shape Memory Relief Structures and its Application in Transfer Printing*".
 
 
-##### Research Experiences
+## Research Experiences
 
 ----
 
 * Cross-disciplinary Scholars in Science and Technology (CSST) program, University of California, Los Angeles,USA. (Advisor: William S. Klug)
 
 
-##### Teaching Experiences
+## Teaching Experiences
 
 ----
 
 * Northwestern University MECH_ENG 490 Advanced Fracture Mechanics (Grader)
 
 
-##### Skills
+## Skills
 
 ----
 
