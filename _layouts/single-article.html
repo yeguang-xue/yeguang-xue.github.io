@@ -37,18 +37,20 @@
 	  
 	  <!-- Main content -->
       <main class="main-content mdl-layout__content">
-        <div class="article-container mdl-grid">
+        
+		<div class="article-container mdl-grid">
           <div class="mdl-cell mdl-cell--2-col mdl-cell--hide-tablet mdl-cell--hide-phone"></div>
           <div class="article-content mdl-color--white mdl-shadow--2dp mdl-cell mdl-cell--8-col">
             {{ content }}
           </div>
         </div>
-      </main>
+		
+		<a href="/" id="top-button" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-color--accent mdl-color-text--accent-contrast">Back</a>
 
-	  <a href="/" id="top-button" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-color--accent mdl-color-text--accent-contrast">Back</a>
-	  
-	  <!-- Footer -->
-      {% include footer-site.html %}
+        <!-- Footer -->
+	    {% include footer-site.html %}		
+		
+      </main>
 	  
     </div>
   </body>

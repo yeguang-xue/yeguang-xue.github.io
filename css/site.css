@@ -45,17 +45,24 @@ html, body {
   background-color: white;
   height: 4px;
 }
-.site main > .mdl-layout__tab-panel {
-  margin: 40px 16px;
+
+.site main .mdl-layout__tab-panel {
+  padding: 40px 16px;
 }
 .site section.section--center {
   max-width: 960px;
+}
+.site footer .mdl-logo a {
+  color:white;
 }
 
 /*------------------------------------
 >>> Card Region
 ------------------------------------*/
 
+.site .mdl-card {
+  display:block;
+}
 .site .mdl-card {
   height: auto;
   display: -webkit-box;
@@ -101,6 +108,9 @@ html, body {
   list-style-position: inside;
   padding-left: 0px;
 }
+.site .mdl-card__supporting-text img {
+  max-width: 50%;
+}
 .site .mdl-card__actions {
   margin: 0;
   padding: 4px 36px;
@@ -122,7 +132,7 @@ html, body {
           flex-shrink: 0;
 }
 .single-article .main-content {
-  margin-top: -32vh;
+  margin-top: -35vh;
   -webkit-flex-shrink: 0;
       -ms-flex-negative: 0;
           flex-shrink: 0;
@@ -175,14 +185,6 @@ html, body {
   font-size: 16px;
   line-height: 28px;
   display: block;
-}
-
-/*------------------------------------
->>> Common Footer
-------------------------------------*/
-
-footer .mdl-logo a {
-  color:white;
 }
 
 /*------------------------------------
