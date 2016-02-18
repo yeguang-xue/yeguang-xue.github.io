@@ -9,9 +9,7 @@
     <title> {{ page.title }} </title>
 
     <!-- Material Design Lite Library -->
-    <script src="https://storage.googleapis.com/code.getmdl.io/1.0.4/material.min.js"></script>
-    <link rel="stylesheet" href="https://storage.googleapis.com/code.getmdl.io/1.0.4/material.indigo-red.min.css" />
-    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
+    {% include material-lite.html %}
 
     <!-- Additional Style Configuration -->
     <link rel="stylesheet" href="css/site.css">
@@ -24,34 +22,34 @@
 
   <body class="site single-article mdl-color--grey-100 mdl-color-text--grey-800 mdl-base">
     <div class="mdl-layout mdl-layout--fixed-header mdl-js-layout">
-	
+
 	  <!-- Header -->
       <header class="mdl-layout__header mdl-layout__header--scroll mdl-color--grey-100 mdl-color-text--grey-800">
         <div class="mdl-layout__header-row">
           <span class="mdl-layout-title"> {{ page.title }} </span>
         </div>
       </header>
-	  
+
 	  <!-- Indigo Ribbon -->
       <div class="ribbon mdl-color--primary"></div>
-	  
+
 	  <!-- Main content -->
       <main class="main-content mdl-layout__content">
-        
+
 		<div class="article-container mdl-grid">
           <div class="mdl-cell mdl-cell--2-col mdl-cell--hide-tablet mdl-cell--hide-phone"></div>
           <div class="article-content mdl-color--white mdl-shadow--2dp mdl-cell mdl-cell--8-col">
             {{ content }}
           </div>
         </div>
-		
+
 		<a href="/" id="top-button" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-color--accent mdl-color-text--accent-contrast">Back</a>
 
         <!-- Footer -->
-	    {% include footer-site.html %}		
-		
+	    {% include footer-site.html %}
+
       </main>
-	  
+
     </div>
   </body>
 </html>
