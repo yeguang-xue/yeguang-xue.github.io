@@ -39,8 +39,8 @@ title: Curriculum Vitae
 
 ----
 
-1. **Y. Xue**, Y. Zhang, X. Feng, S. Kim, J. A. Rogers and Y. Huang, "A Theoretical Model of Reversible Adhesion in Shape Memory Surface Relief Structures and its Application in Transfer Printing," *Journal of the Mechanics and Physics of Solids* 77, 27-42 (2015).
-2. Y. Zhang, R.C. Webb, H. Luo, **Y. Xue**, J. Kurniawan, N.H. Cho, S. Krishnan, Y. Li, Y. Huang and J.A. Rogers, "Theoretical and Experimental Studies of Epidermal Heat Flux Sensors for Measurements of Core Body Temperature," *Advanced Healthcare Materials* 5, 119-127 (2016).
+1. **Xue, Y.**, Zhang, Y., Feng, X., Kim, S., Rogers, J. A., & Huang, Y. (2015). A theoretical model of reversible adhesion in shape memory surface relief structures and its application in transfer printing. *Journal of the Mechanics and Physics of Solids*, 77, 27-42.
+2. Zhang, Y., Chad Webb, R., Luo, H., **Xue, Y.**, Kurniawan, J., Cho, N. H., ... & Rogers, J. A. (2016). Theoretical and Experimental Studies of Epidermal Heat Flux Sensors for Measurements of Core Body Temperature. *Advanced healthcare materials*, 5(1), 119-127.
 
 
 
@@ -56,7 +56,7 @@ title: Curriculum Vitae
 
 ----
 
-* Cross-disciplinary Scholars in Science and Technology (CSST) program, University of California, Los Angeles,USA. (Advisor: William S. Klug)
+* Cross-disciplinary Scholars in Science and Technology (CSST) program, University of California, Los Angeles, USA. (Advisor: William S. Klug)
 
 
 ##### Teaching Experiences
@@ -64,7 +64,7 @@ title: Curriculum Vitae
 ----
 
 * Northwestern University MECH_ENG 495 *Selected Topic: Advanced Fracture Mechanics* (Grader)
-* Northwestern University MECH_ENG 495 *Selected Topic: Mechanics Thin Film* (Grader)
+* Northwestern University MECH_ENG 495 *Selected Topic: Mechanics of Thin Films* (Grader)
 
 
 ##### Skills
@@ -72,6 +72,6 @@ title: Curriculum Vitae
 ----
 
 * Programming Languages: C/C++, Matlab/Octave, Python, Bash
-* CAE software: ABAQUS, ANSYS
+* Finite element software packages: ABAQUS, ANSYS, COMSOL
 * Molecular simulation: Lammps, Gromacs
 * Front-end web development
