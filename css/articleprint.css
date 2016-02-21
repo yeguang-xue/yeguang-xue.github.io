@@ -1,7 +1,0 @@
-@media print {
-    .single-article header,
-    .single-article footer,
-	.single-article .ribbon{
-		display: none;
-    }
-}

@@ -1,55 +1,57 @@
 <!doctype html>
 
 <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="author" content="Yeguang Xue" />
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+<head>
+  <meta charset="UTF-8">
+  <meta name="author" content="Yeguang Xue" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title> {{ page.title }} </title>
+  <title> {{ page.title }} </title>
 
-    <!-- Material Design Lite Library -->
-    {% include material-lite.html %}
+  <!-- Material Design Lite Library -->
+  {% include material-lite.html %}
 
-    <!-- Additional Style Configuration -->
-    <link rel="stylesheet" href="css/site.css">
+  <!-- Additional Style Configuration -->
+  <link rel="stylesheet" href="css/single-article.css">
 
-    <!-- .ico -->
-    <link rel="shortcut icon" href="/favicon.ico" />
+  <!-- .ico -->
+  <link rel="shortcut icon" href="/favicon.ico" />
 
-    {% include google-track.html %}
-  </head>
+  {% include google-track.html %}
+</head>
 
-  <body class="site single-article mdl-color--grey-100 mdl-color-text--grey-800 mdl-base">
-    <div class="mdl-layout mdl-layout--fixed-header mdl-js-layout">
+<body class="single-article mdl-color--grey-200 mdl-color-text--grey-800 mdl-base">
 
-	  <!-- Header -->
-      <header class="mdl-layout__header mdl-layout__header--scroll mdl-color--grey-100 mdl-color-text--grey-800">
-        <div class="mdl-layout__header-row">
-          <span class="mdl-layout-title"> {{ page.title }} </span>
-        </div>
-      </header>
+  <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
 
-	  <!-- Indigo Ribbon -->
-      <div class="ribbon mdl-color--primary"></div>
+    <!-- Header -->
+    <header class="mdl-layout__header mdl-layout__header--scroll mdl-color--primary">
+      <div class="mdl-layout__header-row">
+        <span class="mdl-layout-title"> {{ page.title }} </span>
+      </div>
+    </header>
 
-	  <!-- Main content -->
-      <main class="main-content mdl-layout__content">
+    <!-- Main content -->
+    <main class="mdl-layout__content">
 
-		<div class="article-container mdl-grid">
-          <div class="mdl-cell mdl-cell--2-col mdl-cell--hide-tablet mdl-cell--hide-phone"></div>
-          <div class="article-content mdl-color--white mdl-shadow--2dp mdl-cell mdl-cell--8-col">
+      <!-- Indigo Ribbon -->
+      <div class="ribbon mdl-color--primary-dark"></div>
+
+      <a href="/" id="top-button" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-color--accent mdl-color-text--accent-contrast">Back</a>
+
+      <section class="main-content">
+        <div class="article-container mdl-grid mdl-grid--no-spacing mdl-shadow--2dp">
+          <div class="article-content mdl-color--white mdl-cell mdl-cell--12-col">
             {{ content }}
           </div>
         </div>
+      </section>
 
-		<a href="/" id="top-button" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-color--accent mdl-color-text--accent-contrast">Back</a>
+      <!-- Footer -->
+      {% include footer-site.html %}
 
-        <!-- Footer -->
-	    {% include footer-site.html %}
+    </main>
 
-      </main>
-
-    </div>
-  </body>
+  </div>
+</body>
 </html>
