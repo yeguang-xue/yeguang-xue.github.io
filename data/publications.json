@@ -7,7 +7,8 @@
         "journal": "Journal of the Mechanics and Physics of Solids",
         "volume": 77,
         "pages": [27,42],
-        "doi": "10.1016/j.jmps.2015.01.001"
+        "doi": "10.1016/j.jmps.2015.01.001",
+        "link-pdf": "http://rogers.matse.illinois.edu/files/2015/jmpssmp.pdf"
     },
     {
         "type": "article",
@@ -17,6 +18,18 @@
         "journal": "Advanced Healthcare Materials",
         "volume": 5,
         "pages": [119,127],
-        "doi": "10.1002/adhm.201500110"
+        "doi": "10.1002/adhm.201500110",
+        "link-pdf": "http://rogers.matse.illinois.edu/files/2016/ahmheatflux.pdf"
+    },
+    {
+        "type": "article",
+        "author": ["Yinji Ma", "Kyung‐In Jang", "Liang Wang", "Han Na Jung", "Jean Won Kwak", "Yeguang Xue", "Hang Chen", "Yiyuan Yang", "Dawei Shi", "Xue Feng", "John A Rogers", "Yonggang Huang"],
+        "year": 2016,
+        "title": "Design of Strain‐Limiting Substrate Materials for Stretchable and Flexible Electronics",
+        "journal": "Advanced Functional Materials",
+        "volume": 0,
+        "pages": [0,0],
+        "doi": "10.1002/adfm.201600713",
+        "inpress": true
     }
 ]

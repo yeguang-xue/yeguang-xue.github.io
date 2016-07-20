@@ -48,9 +48,12 @@
 <script type="text/javascript">
     console.log("Test");
     $.getJSON( "data/publications.json", function( data ) {
-        $.each(data,function(index) {
+        $.each(data,function(paperID) {
             var str = "";
-            var author = data[index].author;
+            var paper = data[paperID];
+
+            // Author List
+            var author = paper["author"];
             var authorNum = author.length;
             $.each(author,function(authorID){
                 if (author[authorID]=="Yeguang Xue"){
@@ -65,12 +68,26 @@
                     str += ', ';
                 }
             })
-            str += '"' + data[index].title + '." ';
-            str += '<i>' + data[index].journal + '</i>';
-            str += ' ' + data[index].volume + ', ';
-            str += data[index].pages[0].toString() + '-' + data[index].pages[1].toString();
-            str += ' (' + data[index].year + ').';
-            str += ' [<a href=' + 'http://dx.doi.org/' + data[index].doi + '>DOI</a>] ';
+            // Title, Journal
+            str += '"' + paper["title"] + '."';
+            str += ' <i>' + paper["journal"] + '</i>';
+            // Volume, Page or In press
+            if (paper.hasOwnProperty("inpress")) {
+                str += ", in press,";
+                str += ' ' + paper["year"] + '.';
+            } else{
+                str += ' ' + paper["volume"] + ', ';
+                str += paper["pages"][0].toString() + '-' + paper["pages"][1].toString();
+                str += ' (' + paper["year"] + ').';
+            }
+            // Links
+            if (paper.hasOwnProperty("doi")) {
+                str += ' [<a href=' + 'http://dx.doi.org/' + paper["doi"] + '>DOI</a>] ';
+            }
+            if (paper.hasOwnProperty("link-pdf")) {
+                str += ' [<a href=' + paper["link-pdf"] + '>PDF</a>] ';
+            }
+            // Add to HTML
             $("ol#publications-list").prepend('<li>'+str+'</li>');
         });
     });
