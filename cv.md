@@ -18,6 +18,7 @@ title: Curriculum Vitae
 
 ----
 
+* Ryan Fellowship by The International Institute for Nanotechnology (2016)
 * Walter P. Murphy Fellowship by Northwestern University (2014)
 * Xu Zhi-Lun Outstanding Students in Mechanics Honorable Mention (2014)
 * Third Price in Zhou Pei-Yuan Mechanics Competition (2013)
@@ -73,4 +74,5 @@ title: Curriculum Vitae
 * Programming Languages: C/C++, Matlab/Octave, Python, Bash
 * Finite element software packages: ABAQUS, ANSYS, COMSOL
 * Molecular simulation: Lammps, Gromacs
-* Front-end web development
+* CAD: AutoCAD, Solidworks
+* Front-end web development: jQuery, bootstrap
