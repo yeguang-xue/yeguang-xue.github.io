@@ -38,15 +38,15 @@
                 <h4>Full List</h4>
                 <ol id="publications-list">
                     <!-- List of Publications -->
+                    {% include list-publications.html %}
                 </ol>
             </div>
         </div>
     </section>
 
 </div>
-
+<!--
 <script type="text/javascript">
-    console.log("Test");
     $.getJSON( "data/publications.json", function( data ) {
         $.each(data,function(paperID) {
             var str = "";
@@ -92,3 +92,4 @@
         });
     });
 </script>
+-->

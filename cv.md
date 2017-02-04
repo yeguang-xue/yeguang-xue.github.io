@@ -41,8 +41,10 @@ title: Curriculum Vitae
 
 ----
 
-1. **Xue, Y.**, Zhang, Y., Feng, X., Kim, S., Rogers, J. A., & Huang, Y. (2015). A theoretical model of reversible adhesion in shape memory surface relief structures and its application in transfer printing. *Journal of the Mechanics and Physics of Solids*, 77, 27-42.
-2. Zhang, Y., Chad Webb, R., Luo, H., **Xue, Y.**, Kurniawan, J., Cho, N. H., ... & Rogers, J. A. (2016). Theoretical and Experimental Studies of Epidermal Heat Flux Sensors for Measurements of Core Body Temperature. *Advanced healthcare materials*, 5(1), 119-127.
+<ol id="publications-list">
+    <!-- List of Publications -->
+    {% include list-publications.html %}
+</ol>
 
 
 ##### Presentations
