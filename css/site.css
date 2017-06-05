@@ -107,6 +107,9 @@ html, body {
 .site .mdl-card__supporting-text img {
   max-width: 50%;
 }
+.site .mdl-card__supporting-text img.smallcover {
+  max-width: 150px;
+}
 
 /* Card Actions */
 .site .mdl-card__actions {
