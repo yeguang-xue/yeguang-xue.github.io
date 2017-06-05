@@ -1,9 +1,2 @@
 markdown: kramdown
 highlighter: rouge
-gems:
-  - jemoji
-
-permalink: /blog/:year/:month/:day/:title
-
-collections:
-- publications
