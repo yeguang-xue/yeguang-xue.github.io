@@ -2,7 +2,7 @@ body {
     padding-top: 60px;
     font-size: 16px;
     font-family: "Helvetica Neue", Helvetica, "Microsoft Yahei", Arial, sans-serif;
-    margin-bottom: 60px;
+    margin-bottom: 3rem;
 }
 
 footer {
@@ -49,13 +49,13 @@ footer {
     background-color: #FFF;
 }
 
-@media (min-width: 40em) {
+@media (min-width: 40rem) {
     .featurette-heading {
         font-size: 50px;
     }
 }
 
-@media (min-width: 62em) {
+@media (min-width: 62rem) {
     .featurette-heading {
         margin-top: 5rem;
     }
@@ -66,11 +66,11 @@ footer {
 
 #publications-list {
     list-style-position: inside;
-    padding-left: 0px;
+    padding-left: 0rem;
 }
 
 #publications-list li{
-    margin-bottom: 8px;
+    margin-bottom: 0.5rem;
 }
 
 
@@ -117,9 +117,7 @@ footer {
 
 .highlight  {
     font-family: Monaco, Consolas, "Andale Mono", "DejaVu Sans Mono", monospace;
-    font-size: 14px;
-    margin: 1.5em 1em;
-    padding: 0.5em 0.5em;
+    margin: 1rem 4rem;
 }
 .highlight pre code {
     display: block;
