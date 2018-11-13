@@ -1,0 +1,59 @@
+---
+layout: site
+---
+
+<div class="container site-main-container">
+    <div class="row">
+        <!-- Post -->
+        <div class="col-xs-12 col-sm-8 col-md-9 blog-main">
+            <h2>
+                <a href="{{ site.baseurl }}{{ page.url }}">
+                {% if page.title-display %}
+                    {{ page.title-display }}
+                {% else %}
+                    {{ page.title }}
+                {% endif %}
+                </a>
+            </h2>
+            <div>
+                <i class="fa fa-calendar" aria-hidden="true"></i>
+                &nbsp;
+                <span>{{ page.date | date_to_string }}</span>
+                &nbsp;
+                <i class="fa fa-tags" aria-hidden="true"></i>
+                &nbsp;
+                <span>{{ page.tags | array_to_sentence_string }}</span>
+            </div>
+            <hr>
+            <div>
+                {{ page.content }}
+            </div>
+
+            {% if page.license %}
+                <hr>
+                <h3>License</h3>
+                {% if page.license == 'CC-BY' %}
+                    {% include license-by.html %}
+                {% endif %}
+                {% if page.license == 'CC-BY-NC-ND' %}
+                    {% include license-by-nc-nd.html %}
+                {% endif %}
+                {% if page.license == 'CC-BY-NC-SA' %}
+                    {% include license-by-nc-sa.html %}
+                {% endif %}
+            {% endif %}
+            {% if page.commentID %}
+                <hr>
+                <h3>Comments</h3>
+                {% if page.commentID == 'disqus' %}
+                    {% include disqus.html %}
+                {% endif %}
+            {% endif %}
+        </div>
+
+        <div class="hidden-xs col-sm-4 col-md-3 blog-sidebar">
+            {% include side-panels.html %}
+        </div>
+
+    </div>
+</div>

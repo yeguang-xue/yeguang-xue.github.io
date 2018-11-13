@@ -1,125 +1,137 @@
-/*
-CSS for Yeguang's Website
-Last Update Sep 12, 2015
-*/
-
-html, body {
-  font-family: 'Roboto', 'Helvetica', sans-serif;
-  margin: 0;
-  padding: 0;
+body {
+    padding-top: 60px;
+    font-size: 16px;
+    font-family: "Helvetica Neue", Helvetica, "Microsoft Yahei", Arial, sans-serif;
+    margin-bottom: 60px;
 }
 
-/*------------------------------------
->>> Header
-------------------------------------*/
-
-.site .mdl-layout__header-row {
-  padding-left: 40px;
-}
-.site .mdl-layout__tab-bar-button {
-  display: none;
-}
-.site .mdl-layout__tab-bar-container {
-  height: 56px;
-}
-.site .mdl-layout__tab-bar {
-  width: 100%;
-  box-sizing: border-box;
-  padding-left: 40px;
-  font-weight: 500;
-}
-.site .mdl-layout__tab-bar .mdl-layout__tab {
-  height: 56px;
-  line-height: 56px;
-}
-.site .mdl-layout__tab-bar .mdl-layout__tab.is-active::after {
-  background-color: white;
-  height: 4px;
+footer {
+    margin-top: 3rem;
+    padding: 2rem 0;
+    color: #999;
+    text-align: center;
+    border-top: .05rem solid #e5e5e5;
 }
 
-/*------------------------------------
->>> Main Content
-------------------------------------*/
-
-.site .mdl-layout__tab-panel {
-  margin: 40px 16px;
-}
-.site .mdl-layout__content section.section--center {
-  max-width: 960px;
-}
-.site .mdl-layout__content section:not(:last-of-type) {
-  position: relative;
-  margin-bottom: 24px;
+.site-main-container {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
 }
 
-/*------------------------------------
->>> Card Region
-------------------------------------*/
+/* CUSTOMIZE INDEX PAGE
+-------------------------------------------------- */
 
-.site .mdl-card {
-  display:block;
-  height: auto;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -webkit-flex-direction: column;
-      -ms-flex-direction: column;
-          flex-direction: column;
-}
-.site .mdl-card > * {
-  height: auto;
+.featurette {
+    height: auto;
+    margin: 2rem;
 }
 
-/*Supporting Text*/
-
-.site .mdl-card .mdl-card__supporting-text {
-  margin: 0;
-  padding: 16px 40px;
-  -webkit-box-flex: 1;
-  -webkit-flex-grow: 1;
-      -ms-flex-positive: 1;
-          flex-grow: 1;
-  color: inherit;
-  width: calc(100% - 80px);
-}
-.site .mdl-layout.is-small-screen .mdl-card__supporting-text {
-  padding: 16px 24px;
-  width: calc(100% - 48px);
-}
-.site .mdl-card__supporting-text h4 {
-  margin-top: 16px;
-  margin-bottom: 8px;
-}
-.site .mdl-card__supporting-text p,
-.site .mdl-card__supporting-text ol,
-.site .mdl-card__supporting-text ul {
-  font-size: 16px;
-  margin: 8px 0px;
-}
-.site .mdl-card__supporting-text ul,
-.site .mdl-card__supporting-text ol {
-  list-style-position: inside;
-  padding-left: 0px;
-}
-.site .mdl-card__supporting-text img {
-  max-width: 50%;
-}
-.site .mdl-card__supporting-text img.smallcover {
-  max-width: 150px;
+/* Carousel base class */
+.carousel {
+    margin: 1rem;
 }
 
-/* Card Actions */
-.site .mdl-card__actions {
-  margin: 0;
-  padding: 4px 40px;
+/* Declare heights because of positioning of img element */
+.carousel-item {
+    height: 26rem;
+    background-color: #FFF;
 }
-.site .mdl-layout.is-small-screen .mdl-card__actions {
-  padding: 4px 24px;
+
+.carousel-item > img {
+    padding: 0;
+    max-height: 100%;
+    max-width: 90%;
 }
-.site .mdl-card__actions .mdl-button{
-  margin: 0;
-  padding: 0;
+
+.featurette-image {
+    margin: 0.5rem;
+    max-width: 90%;
+    background-color: #FFF;
 }
+
+@media (min-width: 40em) {
+    .featurette-heading {
+        font-size: 50px;
+    }
+}
+
+@media (min-width: 62em) {
+    .featurette-heading {
+        margin-top: 5rem;
+    }
+}
+
+/* CUSTOMIZE PUBLICATION PAGE
+-------------------------------------------------- */
+
+#publications-list {
+    list-style-position: inside;
+    padding-left: 0px;
+}
+
+#publications-list li{
+    margin-bottom: 8px;
+}
+
+
+/* CUSTOMIZE BLOG PAGE
+-------------------------------------------------- */
+
+.post-divider {
+    margin: 3rem 0; /* Space out the Bootstrap <hr> more */
+    clear: both;
+    visibility: hidden;
+}
+
+.video-center-block {
+    position: relative;
+    height: 0;
+    overflow: hidden;
+}
+/* 16x9 Aspect Ratio */
+.video-center-block{
+    padding-bottom: 56.25%;
+}
+.video-center-block iframe {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+}
+
+/* OTHERS
+-------------------------------------------------- */
+
+/* Hidden */
+.visually-hidden {
+    position: absolute !important;
+    clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
+    clip: rect(1px, 1px, 1px, 1px);
+    padding:0 !important;
+    border:0 !important;
+    height: 1px !important;
+    width: 1px !important;
+    overflow: hidden;
+}
+
+.highlight  {
+    font-family: Monaco, Consolas, "Andale Mono", "DejaVu Sans Mono", monospace;
+    font-size: 14px;
+    margin: 1.5em 1em;
+    padding: 0.5em 0.5em;
+}
+.highlight pre code {
+    display: block;
+    white-space: pre;
+    overflow-x: auto;
+    word-wrap: normal;
+}
+.highlight pre table *{
+    border-style: none;
+}
+.highlight .lineno { color: #ccc; padding: 0 5px;border-right:1px solid #ccc;}
+/* Make line numbers unselectable: excludes line numbers from copy-paste user ops */
+.highlight .lineno {-webkit-user-select: none;-moz-user-select: none; -o-user-select: none;}
+.lineno::-moz-selection {background-color: transparent;} /* Mozilla specific */
+.lineno::selection {background-color: transparent;} /* Other major browsers */

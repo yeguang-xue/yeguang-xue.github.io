@@ -1,0 +1,104 @@
+body {
+    padding-top: 70px; /* Required padding for .navbar-fixed-top.*/
+    font-size: 16px;
+    font-family: "Helvetica Neue", Helvetica, "Microsoft Yahei", Arial, sans-serif;
+}
+footer {
+    display: block;
+    margin: 30px 0;
+}
+.container{
+    max-width: 1080px;
+}
+.center-block {
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.video-center-block {
+  position: relative;
+  height: 0;
+  overflow: hidden;
+}
+/* 16x9 Aspect Ratio */
+.video-center-block{
+  padding-bottom: 56.25%;
+}
+.video-center-block iframe {
+  position: absolute;
+  top: 5%;
+  left: 5%;
+  width: 90%;
+  height: 90%;
+}
+
+.pagination {
+    display: inline-block;
+}
+
+.post-entries hr.post-divider {
+    height: 12px;
+    border: 0;
+    box-shadow: inset 0 12px 12px -12px rgba(0, 0, 0, 0.5);
+    margin: 2em 0px;
+}
+.post-content hr {
+    border: none;
+    box-shadow: none;
+    text-align: center;
+    margin: 1em 0px;
+}
+.post-content hr::after {
+    content: "* * *";
+    display: inline-block;
+    position: relative;
+    top: -0.7em;
+    font-size: 1em;
+    background: white;
+}
+.post-content blockquote {
+    font-size: 16px;
+}
+.side-panels ul{
+    list-style-position: outside;
+    padding-left: 15px;
+}
+
+.mono-font {
+    font-family: Courier, Consolas, "Andale Mono", "DejaVu Sans Mono", monospace;
+}
+
+.highlight  {
+    font-family: Monaco, Consolas, "Andale Mono", "DejaVu Sans Mono", monospace;
+    font-size: 14px;
+    margin: 1.5em 1em;
+    padding: 0.5em 0.5em;
+}
+.highlight pre code {
+    display: block;
+    white-space: pre;
+    overflow-x: auto;
+    word-wrap: normal;
+}
+.highlight pre table *{
+    border-style: none;
+}
+.highlight .lineno { color: #ccc; padding: 0 5px;border-right:1px solid #ccc;}
+/* Make line numbers unselectable: excludes line numbers from copy-paste user ops */
+.highlight .lineno {-webkit-user-select: none;-moz-user-select: none; -o-user-select: none;}
+.lineno::-moz-selection {background-color: transparent;} /* Mozilla specific */
+.lineno::selection {background-color: transparent;} /* Other major browsers */
+
+/* Hidden */
+.visually-hidden {
+    position: absolute !important;
+    clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
+    clip: rect(1px, 1px, 1px, 1px);
+    padding:0 !important;
+    border:0 !important;
+    height: 1px !important;
+    width: 1px !important;
+    overflow: hidden;
+}

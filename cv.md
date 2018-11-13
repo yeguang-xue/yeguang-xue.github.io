@@ -1,11 +1,3 @@
----
-layout: single-article
-title: Curriculum Vitae
----
-
-<h4 style="text-align: center">Yeguang Xue</h4>
-
-
 ##### Education
 
 ----

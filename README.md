@@ -1,17 +1,17 @@
 # Yeguang Xue's Website
 
-## Plan (Functions)
+## Nov 12, 2018
 
-1. Enable lazy loading
-2. Material design
-3. Rewrite publications page using liquid template (add Abstract)
+#### Changes
 
-## Plan (Content)
+* Re-design the whole website, merging the info page with blog site
 
-1. Finish the research page
-2. update links
+#### To Do
 
-## Credits
+* Check potential bugs
+* Make the units consistent (rem, em, px)
+
+## Open Source Tools
 
 * [Jekyll](https://github.com/jekyll/jekyll)
 * [Mathjax](https://www.mathjax.org/)
