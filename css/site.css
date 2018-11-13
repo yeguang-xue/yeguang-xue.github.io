@@ -24,30 +24,31 @@ footer {
 
 .featurette {
     height: auto;
-    margin: 2rem;
 }
 
 /* Carousel base class */
 .carousel {
-    margin: 1rem;
+    width: 15rem;
+    height: 20rem;
+    margin: auto;
 }
 
 /* Declare heights because of positioning of img element */
 .carousel-item {
-    height: 26rem;
+    width: 15rem;
+    height: 20rem;
     background-color: #FFF;
 }
 
 .carousel-item > img {
+    width: 15rem;
+    height: 20rem;
     padding: 0;
-    max-height: 100%;
-    max-width: 90%;
 }
 
 .featurette-image {
-    margin: 0.5rem;
-    max-width: 90%;
-    background-color: #FFF;
+    width: 15rem;
+    height: 20rem;
 }
 
 @media (min-width: 40rem) {
@@ -58,7 +59,7 @@ footer {
 
 @media (min-width: 62rem) {
     .featurette-heading {
-        margin-top: 5rem;
+        margin-top: 4rem;
     }
 }
 

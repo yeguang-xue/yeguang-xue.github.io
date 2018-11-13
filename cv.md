@@ -1,3 +1,8 @@
+---
+layout: blank
+title: Curriculum Vitae
+---
+
 ##### Education
 
 ----
@@ -10,6 +15,7 @@
 
 ----
 
+* Terminal Year Fellowship by Northwestern University (2018)
 * Ryan Fellowship by The International Institute for Nanotechnology (2016)
 * Walter P. Murphy Fellowship by Northwestern University (2014)
 * Xu Zhi-Lun Outstanding Students in Mechanics Honorable Mention (2014)
@@ -33,7 +39,7 @@
 
 ----
 
-<ol id="publications-list">
+<ol>
     <!-- List of Publications -->
     {% include list-publications.html %}
 </ol>
@@ -45,12 +51,6 @@
 
 * 1st Midwest Mechanics of Materials and Structures workshop (Champaign, IL, Aug 26,2015), "*Reversible Adhesion of Shape Memory Relief Structures and its Application in Transfer Printing*".
 
-
-##### Research Experiences
-
-----
-
-* Cross-disciplinary Scholars in Science and Technology (CSST) program, University of California, Los Angeles, USA. (Advisor: William S. Klug)
 
 
 ##### Teaching Experiences
