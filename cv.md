@@ -4,7 +4,7 @@ title: Curriculum Vitae
 disable-ads: True
 ---
 
-##### Education
+#### Education
 
 ----
 
@@ -12,7 +12,7 @@ disable-ads: True
 * B.Eng. Engineering Mechanics (Hons), Zhejiang University, Hangzhou, China.
 
 
-##### Honors and Rewards
+#### Honors and Rewards
 
 ----
 
@@ -29,14 +29,14 @@ disable-ads: True
 * National Scholarship by Ministry of Education of The People's Republic of China (2011)
 
 
-##### Services
+#### Services
 
 ----
 
 * Reviewer: Journal of Applied Mechanics (Transactions of the ASME)
 
 
-##### Selected Publications
+#### Selected Publications
 
 ----
 
@@ -46,15 +46,17 @@ disable-ads: True
 </ol>
 
 
-##### Presentations
+#### Presentations
 
 ----
 
-* 1st Midwest Mechanics of Materials and Structures workshop (Champaign, IL, Aug 26,2015), "*Reversible Adhesion of Shape Memory Relief Structures and its Application in Transfer Printing*".
+* Reversible Adhesion of Shape Memory Relief Structures and its Application in Transfer Printing, *1st Midwest Mechanics of Materials and Structures workshop* (Champaign, IL, Aug 26,2015)
+* Mechanical Design of Soft, Wearable Microfluidic Devices, *SES 2017* (Boston, MA, July 27, 2017)
+* Measuring Sweat Pressure, *3rd Midwest Mechanics of Materials and Structures workshop* (West Lafayette, IN, Aug 11, 2017)
+* Mechanical Design of Soft, Wearable Microfluidic Devices, *USNC/TAM 2018* (Chicago, IL, June 9, 2018)
 
 
-
-##### Teaching Experiences
+#### Teaching Experiences
 
 ----
 
@@ -62,12 +64,12 @@ disable-ads: True
 * Northwestern University MECH_ENG 495 *Selected Topic: Mechanics of Thin Films* (Grader)
 
 
-##### Skills
+#### Skills
 
 ----
 
-* Programming Languages: C/C++, Matlab/Octave, Python, Bash
+* Programming Languages: C/C++, Matlab/Octave, Python, Bash, SQL
 * Finite element software packages: ABAQUS, ANSYS, COMSOL
 * Molecular simulation: Lammps, Gromacs
 * CAD: AutoCAD, Solidworks
-* Front-end web development: jQuery, bootstrap
+* Front-end web development: jQuery, Bootstrap
