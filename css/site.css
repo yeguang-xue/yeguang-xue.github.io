@@ -80,7 +80,7 @@ footer {
 -------------------------------------------------- */
 
 .post-divider {
-    margin: 3rem 0; /* Space out the Bootstrap <hr> more */
+    margin: 2rem 0; /* Space out the Bootstrap <hr> more */
     clear: both;
     visibility: hidden;
 }

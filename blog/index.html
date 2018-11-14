@@ -7,36 +7,39 @@ title: Yeguang's blog
 
     <div class="row">
         <div class="col-12 col-sm-8 col-md-9 blog-main">
-            <div class="post-content">
 
-                {% for post in paginator.posts %}
-                <h2>
-                    <a href="{{ site.baseurl }}{{ post.url }}">
-                        {% if post.title-display %}
-                        {{ post.title-display }}
-                        {% else %}
-                        {{ post.title }}
-                        {% endif %}
-                    </a>
-                </h2>
-                <div>
-                    <i class="fa fa-calendar" aria-hidden="true"></i>
-                    &nbsp;
-                    <span>{{ post.date | date_to_string }}</span>
-                    &nbsp;
-                    <i class="fa fa-tags" aria-hidden="true"></i>
-                    &nbsp;
-                    <span>{{ post.tags | array_to_sentence_string }}</span>
+            {% for post in paginator.posts %}
+
+            <div class="row post-content">
+                <div class="col-12">
+                    <h2>
+                        <a href="{{ site.baseurl }}{{ post.url }}">
+                            {% if post.title-display %}
+                            {{ post.title-display }}
+                            {% else %}
+                            {{ post.title }}
+                            {% endif %}
+                        </a>
+                    </h2>
+                    <div>
+                        <i class="fa fa-calendar" aria-hidden="true"></i>
+                        &nbsp;
+                        <span>{{ post.date | date_to_string }}</span>
+                        &nbsp;
+                        <i class="fa fa-tags" aria-hidden="true"></i>
+                        &nbsp;
+                        <span>{{ post.tags | array_to_sentence_string }}</span>
+                    </div>
+                    <hr>
+                    <div >
+                        {{ post.content }}
+                    </div>
                 </div>
-                <hr>
-                <div >
-                    {{ post.content }}
-                </div>
-
-                <hr class="post-divider">
-                {% endfor %}
-
             </div>
+
+            <hr class="post-divider">
+
+            {% endfor %}
 
         </div>
 
