@@ -6,7 +6,12 @@ layout: site
     <div class="row">
         <!-- Post -->
         <div class="col-12 col-md-8 col-lg-9 blog-main">
+
+            {% if page.enable-sc-fonts %}
+            <h2 class='sc-content'>
+            {% else %}
             <h2>
+            {% endif %}
                 <a href="{{ site.baseurl }}{{ page.url }}">
                 {% if page.title-display %}
                     {{ page.title-display }}
@@ -25,7 +30,12 @@ layout: site
                 <span>{{ page.tags | array_to_sentence_string }}</span>
             </div>
             <hr>
+            
+            {% if page.enable-sc-fonts %}
+            <div class='sc-content'>
+            {% else %}
             <div>
+            {% endif %}
                 {{ page.content }}
             </div>
 
@@ -42,13 +52,11 @@ layout: site
                     {% include license-by-nc-sa.html %}
                 {% endif %}
             {% endif %}
-            {% if page.commentID %}
-                <hr>
-                <h4>Comments</h4>
-                {% if page.commentID == 'disqus' %}
-                    {% include disqus.html %}
-                {% endif %}
-            {% endif %}
+
+            <hr>
+            <h4>Comments</h4>
+            {% include disqus.html %}
+
         </div>
 
         <div class="col-12 col-md-4 col-lg-3 blog-sidebar">

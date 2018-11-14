@@ -6,7 +6,6 @@ tags:
   - Abaqus
   - Linux
 license: CC-BY-NC-SA
-commentID: disqus
 ---
 
 Recently, I installed Abaqus 2016 on a few different Linux Distros for workstations in my lab and my PC. Here's a summary of the issues I encountered and my solutions.

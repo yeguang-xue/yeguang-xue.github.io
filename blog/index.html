@@ -13,7 +13,11 @@ title: Yeguang's blog
 
             <div class="row post-content">
                 <div class="col-12">
+                    {% if post.enable-sc-fonts %}
+                    <h2 class='sc-content'>
+                    {% else %}
                     <h2>
+                    {% endif %}
                         <a href="{{ site.baseurl }}{{ post.url }}">
                             {% if post.title-display %}
                             {{ post.title-display }}
@@ -32,8 +36,22 @@ title: Yeguang's blog
                         <span>{{ post.tags | array_to_sentence_string }}</span>
                     </div>
                     <hr>
-                    <div >
+
+                    {% if post.enable-sc-fonts %}
+                    <div class='sc-content'>
+                    {% else %}
+                    <div>
+                    {% endif %}
                         {{ post.content }}
+                    </div>
+
+                    <div class="">
+                        <p class="text-right">
+                            <a href="{{ site.baseurl }}{{ post.url }}">
+                                Comments &raquo;
+                            </a>
+                        </p>
+
                     </div>
                 </div>
             </div>
