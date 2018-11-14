@@ -23,10 +23,13 @@
     <![endif]-->
 
     <link rel="stylesheet" href="{{ site.baseurl }}/css/site.css">
-    <link rel="stylesheet" href="{{ site.baseurl }}/css/syntax.css"> 
+    <link rel="stylesheet" href="{{ site.baseurl }}/css/syntax.css">
     <link rel="shortcut icon" href="{{ site.baseurl }}/favicon.ico">
 
-    {% include google-services.html %}
+    {% include google-analyitcs.html %}
+    {% unless page.disable-ads %}
+        {% include google-adsense.html %}
+    {% endunless %}
 
 </head>
 

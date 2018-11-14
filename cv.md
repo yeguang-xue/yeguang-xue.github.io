@@ -1,6 +1,7 @@
 ---
 layout: blank
 title: Curriculum Vitae
+disable-ads: True
 ---
 
 ##### Education
