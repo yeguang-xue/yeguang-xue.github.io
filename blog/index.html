@@ -4,20 +4,17 @@ title: Yeguang's blog
 ---
 
 <div class="container site-main-container">
-
     <div class="row">
 
+        
         <div class="col-12 col-md-8 col-lg-9 blog-main">
 
             {% for post in paginator.posts %}
-
+            <!-- Each Post -->
             <div class="row post-content">
                 <div class="col-12">
                     {% if post.enable-sc-fonts %}
                     <h2 class='sc-content'>
-                    {% else %}
-                    <h2>
-                    {% endif %}
                         <a href="{{ site.baseurl }}{{ post.url }}">
                             {% if post.title-display %}
                             {{ post.title-display }}
@@ -26,6 +23,17 @@ title: Yeguang's blog
                             {% endif %}
                         </a>
                     </h2>
+                    {% else %}
+                    <h2>
+                        <a href="{{ site.baseurl }}{{ post.url }}">
+                            {% if post.title-display %}
+                            {{ post.title-display }}
+                            {% else %}
+                            {{ post.title }}
+                            {% endif %}
+                        </a>
+                    </h2>
+                    {% endif %}
                     <div>
                         <i class="fa fa-calendar" aria-hidden="true"></i>
                         &nbsp;
@@ -38,12 +46,14 @@ title: Yeguang's blog
                     <hr>
 
                     {% if post.enable-sc-fonts %}
-                    <div class='sc-content'>
-                    {% else %}
-                    <div>
-                    {% endif %}
+                    <div class="sc-content">
                         {{ post.content }}
                     </div>
+                    {% else %}
+                    <div>
+                        {{ post.content }}
+                    </div>
+                    {% endif %}
 
                     <div class="">
                         <p class="text-right">
@@ -51,13 +61,12 @@ title: Yeguang's blog
                                 Comments &raquo;
                             </a>
                         </p>
-
                     </div>
                 </div>
             </div>
-
             <hr class="post-divider mb-4">
 
+            <!-- /Each Post -->
             {% endfor %}
 
 
@@ -66,7 +75,7 @@ title: Yeguang's blog
                 <div class="col align-self-center">
                     <p class="text-center">
                         {% if paginator.previous_page %}
-                        <a class="btn btn-outline-primary" href="{{ paginator.previous_page_path }}" class="previous">
+                        <a class="btn btn-outline-primary" href="{{ paginator.previous_page_path }}">
                             Newer
                         </a>
                         {% else %}
@@ -76,7 +85,7 @@ title: Yeguang's blog
                         {% endif %}
 
                         {% if paginator.next_page %}
-                        <a class="btn btn-outline-primary" href="{{ paginator.next_page_path }}" class="next">Older</a>
+                        <a class="btn btn-outline-primary" href="{{ paginator.next_page_path }}">Older</a>
                         {% else %}
                         <a class="btn btn-outline-secondary disabled" href="#">
                             Older
@@ -84,7 +93,7 @@ title: Yeguang's blog
                         {% endif %}
                     </p>
                 </div>
-            </div>
+            </div> <!-- /Pagination links -->
 
         </div>
 
@@ -92,7 +101,5 @@ title: Yeguang's blog
             {% include side-panels.html %}
         </div>
 
-
     </div>
-
 </div>
