@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Abaqus 2016 Installation on Linux: Issues and Solutions"
-location: Evanston
+category:
+  - HowTo
 tags:
   - Abaqus
   - Linux

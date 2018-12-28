@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Kernel Update without Reinstalling Nvidia Driver"
-location: Evanston
+category:
+  - HowTo
 tags:
   - Linux
 license: CC-BY-NC-SA

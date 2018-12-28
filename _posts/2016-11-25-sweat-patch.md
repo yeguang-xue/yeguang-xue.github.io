@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Publication: Wearable Microfluidic Device for Sweat Monitoring"
-location: Evanston
+category:
+  - News
 tags:
   - Research
 license: CC-BY-NC-SA
