@@ -8,9 +8,11 @@ layout: site
         <div class="col-12 col-md-8 col-lg-9 blog-main">
 
             <h2>
+                <a href="{{ site.baseurl }}{{ page.url }}">
                 {{ page.category }}
+                </a>
             </h2>
-            
+            <hr>
             <ul>
                 {% for post in site.categories[page.category] %}
                 <li>

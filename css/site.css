@@ -80,6 +80,10 @@ footer {
 /* CUSTOMIZE BLOG PAGE
 -------------------------------------------------- */
 
+h2 a{
+    color: black;
+}
+
 .post-divider {
     clear: both;
     visibility: hidden;

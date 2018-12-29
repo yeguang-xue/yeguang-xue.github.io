@@ -11,7 +11,9 @@ title: Yeguang's blog
             {% for category in site.categories %}
             <div id="{{ category[0] }}"></div>
             <h2>
-                {{ category[0] }}
+                <a href="{{ site.baseurl }}/blog/{{ category[0] | downcase | replace: ' ', '-' }}">
+                    {{ category[0] }}
+                </a>
             </h2>
             <hr>
             <ul>
@@ -21,6 +23,7 @@ title: Yeguang's blog
                 </li>
                 {% endfor %}
             </ul>
+            <hr class="post-divider mb-4">
             {% endfor %}
 
         </div>
