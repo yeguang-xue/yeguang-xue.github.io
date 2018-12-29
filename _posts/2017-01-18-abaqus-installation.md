@@ -2,7 +2,7 @@
 layout: post
 title: "Abaqus 2016 Installation on Linux: Issues and Solutions"
 category:
-  - HowTo
+  - How To
 tags:
   - Abaqus
   - Linux
