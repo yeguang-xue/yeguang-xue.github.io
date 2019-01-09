@@ -5,7 +5,7 @@ category:
   - How To
 tags:
   - Chrome OS
-license: CC-BY-NC-SA
+license: CC-BY
 ---
 
 The default shell in Chrome OS ("crosh" shell, invoked by `Ctrl-Alt-T`) only comes with a small set of command line commands. In order to get a full Linux development environment, the most convenient way is still to connect a remote server with the Secure Shell Extension (As of Nov 2019, Crostini, the Linux container on Chrome OS, has not come to many Chromebook models, e.g., my Samsung Chromebook Pro). However, because the Secure Shell App on Chrome OS is essentially browser based, it is not as straightforward as a normal Linux machine when it comes to management of ssh identities (public and secret keys) or `known_hosts`. This article tries to give solutions to some common issues.
