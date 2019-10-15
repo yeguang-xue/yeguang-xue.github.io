@@ -1,7 +1,7 @@
 ## jekyll
 _site/
 _private/
-.gitignore
+.jekyll-cache/
 
 ## vim
 .swp
