@@ -17,7 +17,7 @@ ABAQUS 2016 officially only has support for SUSE and Red Hat (and CentOS). By de
 
 The Abaqus installer get the release info using the script located at `<installer_dir>/Linux64/1/inst/common/init/Linux.sh`. I overrode the command to obtain the OS release using
 
-{% highlight ksh%}
+{% highlight bash%}
 DSY_OS_Release="CentOS"
 {% endhighlight %}
 
