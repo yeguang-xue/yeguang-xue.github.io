@@ -164,13 +164,18 @@ h2 a{
 
 .highlight  {
     font-family: Monaco, Consolas, "Andale Mono", "DejaVu Sans Mono", monospace;
-    margin: 1rem 4rem;
+    margin: 1rem 2rem;
 }
 .highlight pre code {
     display: block;
     white-space: pre;
     overflow-x: auto;
     word-wrap: normal;
+    border: rgba(0,0,0,.125);
+    border-style: dashed;
+    border-width: 1px;
+    border-radius: 8px;
+    padding: 0.5rem 1rem;
 }
 .highlight pre table *{
     border-style: none;
