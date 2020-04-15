@@ -10,10 +10,9 @@ license: CC-BY
 
 Our research on a new type of flexible microfluidic device that can adhere to skin for sweat monitoring was published on latest issue of *Science Translational Medicine*. The paper was featured as cover story of this issue. Check details by referring to the paper titled "A Soft, Wearable Microfluidic Device for the Capture, Storage, and Colorimetric Sensing of Sweat" on *Science Translational Medicine* [website](http://scim.ag/2gmFiIz). Also check the following video describing the operation of the sweat microfluidic device:
 
-<div class="media-center-block video-16-9">
+<div class="video-center-block video-16-9">
 <iframe src="https://www.youtube.com/embed/THuuYpEgfeU?rel=0" allowfullscreen></iframe>
 </div>
-
 
 The research was widely covered by news & media, including:
 [VOA](http://www.voanews.com/a/skin-patch-sweat-monitor-health/3608996.html),
