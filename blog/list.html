@@ -6,7 +6,7 @@ title: Yeguang's blog
 <div class="container site-main-container">
     <div class="row">
             
-        <div class="col-12 col-md-8 col-lg-9 blog-main">
+        <div class="col-12 col-md-8 col-lg-9">
 
             {% for category in site.categories %}
             <div id="{{ category[0] }}"></div>
@@ -27,9 +27,8 @@ title: Yeguang's blog
             {% endfor %}
 
         </div>
-        
 
-        <div class="col-12 col-md-4 col-lg-3 blog-sidebar">
+        <div class="col-12 col-md-4 col-lg-3">
             {% include side-panels.html %}
         </div>
 

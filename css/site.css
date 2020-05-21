@@ -1,9 +1,11 @@
+/* Whole Site
+-------------------------------------------------- */
+
 body {
     padding-top: 56px !important;
     font-size: 16px;
     font-family: Arial, Helvetica, sans-serif;
 }
-/* , */
 
 footer {
     border-top: .05rem solid #e5e5e5;
@@ -20,7 +22,19 @@ footer {
     font-family: "Microsoft Yahei", "Noto Sans CJK SC", Arial, sans-serif;
 }
 
-/* CUSTOMIZE INDEX PAGE
+h2 a{
+    color: black;
+}
+
+/* Twitter Content
+-------------------------------------------------- */
+.twitter-content div{
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* About Page
 -------------------------------------------------- */
 
 .featurette {
@@ -64,7 +78,7 @@ footer {
     }
 }
 
-/* CUSTOMIZE PUBLICATION PAGE
+/* Publication Page
 -------------------------------------------------- */
 
 #publications-list {
@@ -79,10 +93,6 @@ footer {
 
 /* CUSTOMIZE BLOG PAGE
 -------------------------------------------------- */
-
-h2 a{
-    color: black;
-}
 
 .post-divider {
     clear: both;
@@ -140,28 +150,8 @@ h2 a{
     font-weight: bold;
 }
 
-/* OTHERS
+/* Code Higlights
 -------------------------------------------------- */
-
-.rotate90 {
-    -webkit-transform:rotate(90deg);
-    -moz-transform: rotate(90deg);
-    -ms-transform: rotate(90deg);
-    -o-transform: rotate(90deg);
-    transform: rotate(90deg);
-}
-
-/* Hidden */
-.visually-hidden {
-    position: absolute !important;
-    clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
-    clip: rect(1px, 1px, 1px, 1px);
-    padding:0 !important;
-    border:0 !important;
-    height: 1px !important;
-    width: 1px !important;
-    overflow: hidden;
-}
 
 .highlight  {
     font-family: Monaco, Consolas, "Andale Mono", "DejaVu Sans Mono", monospace;
@@ -186,3 +176,26 @@ h2 a{
 .highlight .lineno {-webkit-user-select: none;-moz-user-select: none; -o-user-select: none;}
 .lineno::-moz-selection {background-color: transparent;} /* Mozilla specific */
 .lineno::selection {background-color: transparent;} /* Other major browsers */
+
+/* Miscs
+-------------------------------------------------- */
+
+.rotate90 {
+    -webkit-transform:rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+
+/* Hidden */
+.visually-hidden {
+    position: absolute !important;
+    clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
+    clip: rect(1px, 1px, 1px, 1px);
+    padding:0 !important;
+    border:0 !important;
+    height: 1px !important;
+    width: 1px !important;
+    overflow: hidden;
+}
