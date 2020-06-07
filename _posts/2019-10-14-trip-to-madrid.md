@@ -77,46 +77,46 @@ license: CC-BY-NC-ND
 马竞主场。但终究卡尔德隆已经是旧篇章，等待被拆除，而马竞仍然需要在新的球场继续创造辉煌。有一天也许马竞的球员、甚至主教练西蒙尼，都会慢慢离开球队，但希望马竞的精神能一直随着球队传承下去。
 
 <div class="figure-center-800 mb-3">
-<img src="https://i.postimg.cc/BZxjHzqv/wanda-1.jpg">
+<img src="https://i.postimg.cc/BZxjHzqv/wanda-1.jpg" alt="万达大都会球场外景">
 </div>
 <p class="caption-text"> 万达大都会球场外景 </p>
 
 因为我在马德里的那个周末是国家队比赛日，并没有联赛进行，因此得以完整的参观整个球场。能现场亲眼看到那些无数次在电视机转播镜头中出现的场所无疑是令人兴奋的：记者发布会的房间、球员更衣室、球员通道、主教练席。整个参观的过程中我都沉浸在这种欣喜中，很少拍照的我都忍不住到处自拍。
 
 <div class="figure-center-800 mb-3">
-<img src="https://i.postimg.cc/qMwgZC6V/wanda-2.jpg">
+<img src="https://i.postimg.cc/qMwgZC6V/wanda-2.jpg" alt="万达大都会球场内景">
 </div>
 <p class="caption-text"> 万达大都会球场内景 </p>
 
 <div class="figure-center-800 mb-3">
-<img src="https://i.postimg.cc/dV0DMtG7/wanda-3.jpg">
+<img src="https://i.postimg.cc/dV0DMtG7/wanda-3.jpg" alt="记者发布会房间">
 </div>
 <p class="caption-text"> 万达大都会球场举行记者发布会的房间 </p>
 
 <div class="figure-center-800 mb-3">
-<img src="https://i.postimg.cc/9FCrpBMY/wanda-4.jpg">
+<img src="https://i.postimg.cc/9FCrpBMY/wanda-4.jpg" alt="记者发布会">
 </div>
 <p class="caption-text"> 过过记者发布会的瘾 </p>
 
 <div class="figure-center-800 mb-3">
-<img src="https://i.postimg.cc/7LG66ssw/wanda-5.jpg">
+<img src="https://i.postimg.cc/7LG66ssw/wanda-5.jpg" alt="球员更衣室">
 </div>
 <p class="caption-text"> 球员更衣室 </p>
 
 <div class="figure-center-800 mb-3">
-<img src="https://i.postimg.cc/63CpV7xP/wanda-7.jpg">
+<img src="https://i.postimg.cc/63CpV7xP/wanda-7.jpg" alt="赛场球员通道">
 </div>
 <p class="caption-text"> 赛场球员通道 </p>
 
 <div class="figure-center-800 mb-3">
-<img src="https://i.postimg.cc/fRgyMnv8/wanda-6.jpg">
+<img src="https://i.postimg.cc/fRgyMnv8/wanda-6.jpg" alt="马竞近几年获得的冠军">
 </div>
 <p class="caption-text"> 马竞近几年获得的冠军，其中13-14赛季的西甲冠军无疑是其中分量最重的 </p>
 
 除了万达球场之外，马竞球迷另一个圣地大概就是海神广场了。据说球队夺冠之后，球迷们都会在此游行庆祝，所以我一直以为这是一个可以容纳许多人的大广场。但实际上这里只是一个环形交叉路口的中心，没有活动的时候这里似乎完全不是为游客准备的。我也只能想象万千球迷在此聚会的盛况了。
 
 <div class="figure-center-800 mb-3">
-<img src="https://i.postimg.cc/zXQYBJ9H/sculpture-3.jpg">
+<img src="https://i.postimg.cc/zXQYBJ9H/sculpture-3.jpg" alt="海神广场">
 </div>
 <p class="caption-text"> 海神广场，夺冠之后马竞球迷会在此地聚会庆祝 </p>
 
