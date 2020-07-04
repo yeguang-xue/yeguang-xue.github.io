@@ -4,7 +4,7 @@ title: "Multi-Gigabit Home Network Setup"
 category:
   - How To
 tags:
-  - Home Lab
+  - Homelab
   - Networking
   - Linux
 license: CC-BY
