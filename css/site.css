@@ -41,34 +41,9 @@ h2 a{
     height: auto;
 }
 
-/* Carousel base class */
-.carousel {
-    width: 15rem;
-    height: 20rem;
-    margin: auto;
-}
-
-/* Declare heights because of positioning of img element */
-.carousel-item {
-    width: 15rem;
-    height: 20rem;
-    background-color: #FFF;
-}
-
-.carousel-item > img {
-    width: 15rem;
-    height: 20rem;
-    padding: 0;
-}
-
-.featurette-image {
-    width: 15rem;
-    height: 20rem;
-}
-
 @media (min-width: 40rem) {
     .featurette-heading {
-        font-size: 50px;
+        font-size: 42px;
     }
 }
 
