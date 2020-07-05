@@ -56,12 +56,12 @@ h2 a{
 /* Publication Page
 -------------------------------------------------- */
 
-#publications-list {
+.publications-list {
     list-style-position: inside;
     padding-left: 0rem;
 }
 
-#publications-list li{
+.publications-list li{
     margin-bottom: 0.5rem;
 }
 
@@ -123,6 +123,11 @@ h2 a{
     text-align: center;
     font-size: 14px;
     font-weight: bold;
+}
+
+.post-list {
+    list-style-type: none;
+    padding-left: 0rem;
 }
 
 /* Code Higlights
