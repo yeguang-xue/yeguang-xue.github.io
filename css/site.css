@@ -26,6 +26,14 @@ h2 a{
     color: black;
 }
 
+.side-ad {
+    display: flex;
+}
+
+.side-ad iframe {
+    justify-content: center;
+}
+
 /* Twitter Content
 -------------------------------------------------- */
 .twitter-content div{
