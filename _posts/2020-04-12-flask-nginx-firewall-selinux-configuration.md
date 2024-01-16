@@ -2,7 +2,7 @@
 layout: post
 title: "SELinux and Firewall Settings for Hosting Flask App with Nginx (on CentOS)"
 category:
-  - How To
+  - Technical
 tags:
   - Web Development
   - Linux

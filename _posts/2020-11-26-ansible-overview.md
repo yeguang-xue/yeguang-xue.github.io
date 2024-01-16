@@ -2,7 +2,7 @@
 layout: post
 title: "IT Automation with Ansible"
 category:
-  - How To
+  - Technical
 tags:
   - Homelab
   - Linux

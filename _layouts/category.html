@@ -4,28 +4,28 @@ layout: site
 
 <div class="container site-main-container">
     <div class="row">
-            
+
         <div class="col-12 col-md-8 col-lg-9 blog-main">
 
             <h2>
                 <a href="{{ site.baseurl }}{{ page.url }}">
-                {{ page.category }}
+                    {{ page.category }}
                 </a>
             </h2>
             <hr>
             <ul class="post-list">
                 {% for post in site.categories[page.category] %}
                 <li class="d-none d-lg-block">
-                    <span class="text-monospace text-secondary">{{ post.date | date: '%b %d, %Y' }}</span>
+                    <span class="font-monospace text-secondary">{{ post.date | date: '%b %d, %Y' }}</span>
                     <span class="ml-2">
-                        <a href="{{ post.url }}">{{ post.title }}</a>
+                        &raquo; <a href="{{ post.url }}">{{ post.title }}</a>
                     </span>
                 </li>
 
                 <li class="d-block d-lg-none">
-                    <div class="text-monospace text-secondary">{{ post.date | date: '%Y-%m-%d' }}</div>
+                    <div class="font-monospace text-secondary">{{ post.date | date: '%Y-%m-%d' }}</div>
                     <div class="ml-1  mb-2">
-                        &raquo;	<a href="{{ post.url }}">{{ post.title }}</a>
+                        &raquo; <a href="{{ post.url }}">{{ post.title }}</a>
                     </div>
                 </li>
                 {% endfor %}

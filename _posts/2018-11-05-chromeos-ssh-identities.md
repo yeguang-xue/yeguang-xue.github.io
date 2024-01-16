@@ -2,7 +2,7 @@
 layout: post
 title: "Managing SSH Identities on Chrome OS"
 category:
-  - How To
+  - Technical
 tags:
   - Chrome OS
 license: CC-BY

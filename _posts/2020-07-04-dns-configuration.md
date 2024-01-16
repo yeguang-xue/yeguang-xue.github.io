@@ -2,7 +2,7 @@
 layout: post
 title: "DNS Configuration and Using Domain Names for Applications in Local Network"
 category:
-  - How To
+  - Technical
 tags:
   - Homelab
   - Linux

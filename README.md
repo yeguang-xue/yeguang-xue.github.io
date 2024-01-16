@@ -1,5 +1,11 @@
 # Yeguang Xue's Website
 
+## Jan 15, 2024
+
+#### Changes
+
+* Update Bootstrap version
+* Reorganize website structure
 
 ## Nov 13, 2018
 

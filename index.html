@@ -7,21 +7,20 @@ title: Yeguang Xue
     <div class="row">
 
         <div class="col-12 col-md-8 col-lg-9">
-            <h2>Recent Blogs</h2>
+            <h2>Recent Posts</h2>
             <hr>
             <ul class="post-list">
                 {% for post in site.posts limit:5 %}
                 <li class="d-none d-lg-block">
-                    <span class="text-monospace text-secondary">{{ post.date | date: '%b %d, %Y' }}</span>
-                    <span class="ml-2">
-                        <a href="{{ post.url }}">{{ post.title }}</a>
+                    <span class="font-monospace text-secondary">{{ post.date | date: '%b %d, %Y' }}</span>
+                    <span class="ml2">
+                        &raquo; <a href="{{ post.url }}">{{ post.title }}</a>
                     </span>
                 </li>
-
                 <li class="d-block d-lg-none">
-                    <div class="text-monospace text-secondary">{{ post.date | date: '%Y-%m-%d' }}</div>
-                    <div class="ml-1  mb-2">
-                        &raquo;	<a href="{{ post.url }}">{{ post.title }}</a>
+                    <div class="font-monospace text-secondary">{{ post.date | date: '%Y-%m-%d' }}</div>
+                    <div class="ml-1 mb-2">
+                        &raquo; <a href="{{ post.url }}">{{ post.title }}</a>
                     </div>
                 </li>
                 {% endfor %}
@@ -29,13 +28,26 @@ title: Yeguang Xue
 
             <hr class="post-divider mb-4">
 
-            <h2>Social Media</h2>
+            <h2>Homelab Series</h2>
             <hr>
-            <div class="twitter-content">
-                <div>
-                    <a class="twitter-timeline" href="https://twitter.com/YeguangXue?ref_src=twsrc%5Etfw">Tweets by blackholexyg</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-                </div>
-            </div>
+            <ul class="post-list">
+                {% assign posts = site.posts | where_exp: "item", "item.tags contains 'Homelab'" %}
+                {% for post in posts limit:5 %}
+                <li class="d-none d-lg-block">
+                    <span class="font-monospace text-secondary">{{ post.date | date: '%b %d, %Y' }}</span>
+                    <span class="ml2">
+                        &raquo; <a href="{{ post.url }}">{{ post.title }}</a>
+                    </span>
+                </li>
+                <li class="d-block d-lg-none">
+                    <div class="font-monospace text-secondary">{{ post.date | date: '%Y-%m-%d' }}</div>
+                    <div class="ml-1 mb-2">
+                        &raquo; <a href="{{ post.url }}">{{ post.title }}</a>
+                    </div>
+                </li>
+                {% endfor %}
+            </ul>
+
         </div>
 
         <div class="col-12 col-md-4 col-lg-3">

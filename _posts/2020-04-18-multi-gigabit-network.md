@@ -2,7 +2,7 @@
 layout: post
 title: "Multi-Gigabit Home Network Setup"
 category:
-  - How To
+  - Technical
 tags:
   - Homelab
   - Networking
