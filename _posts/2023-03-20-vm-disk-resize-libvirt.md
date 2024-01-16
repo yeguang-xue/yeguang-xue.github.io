@@ -6,7 +6,6 @@ category:
 tags:
   - Homelab
   - Linux
-  - IT
   - Virtulization
 license: CC-BY
 last_modified_at: 2024/01/15

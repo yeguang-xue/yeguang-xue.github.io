@@ -1,12 +1,12 @@
 ---
 layout: post
-enable-sc-fonts: True
+enable-sc-fonts: true
 title: Be a Hard-core Player in Life (Chinese)
 title-display: 2019新年寄语：做人生的硬核玩家
 category:
-  - Diaries
+  - Life
 tags:
-  - New Year
+  - New-Year
   - Love
 license: CC-BY-NC-ND
 ---

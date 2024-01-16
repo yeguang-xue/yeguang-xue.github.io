@@ -1,10 +1,10 @@
 ---
 layout: post
-enable-sc-fonts: True
+enable-sc-fonts: true
 title: Trip to Madrid (Chinese)
 title-display: 马德里行纪
 category:
-  - Diaries
+  - Life
 tags:
   - Travel
 license: CC-BY-NC-ND
