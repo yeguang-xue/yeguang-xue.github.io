@@ -1,13 +1,14 @@
 ---
 layout: post
-title: "IT Automation with Ansible"
+title: IT Automation with Ansible
 category:
   - Technical
 tags:
   - Homelab
   - Linux
-  - IT Automation
+  - DevOps
 license: CC-BY
+last_modified_at: 2024/01/15
 ---
 
 Automation has always been the dream of any IT person. Today, requirements of fast deployment and iterations further advance the development of IT automation tools. Among the popular automation tools, Ansible is one of the simplest while still providing rich set of functions. Here I would like to give a quick overview of this powerful tool.
@@ -28,7 +29,7 @@ Ansible uses [YAML](https://yaml.org) formats for almost all its configurations.
 - **Filters** are used to modify variables and are separated from the variable by a pipe symbol (\|). Filters are handy for text manipulation, pattern matching/search/replace, and much more.  
 - **Tests** are used to test a variable against a common expression. They are useful in conditionals which will be introduced later. 
 
-Note that Ansible not only include standard filters/tests shipped with Jinja2, but also add lots of additional Ansible-specific filters/tests. Check both Jinja2 Docs[2] and Ansible User Guide[3] when you try to find a specific filter/test that suites your problem.
+Note that Ansible not only include standard filters/tests shipped with Jinja2, but also add lots of additional Ansible specific filters/tests. Check both Jinja2 Docs[2] and Ansible User Guide[3] when you try to find a specific filter/test that suites your problem.
 
 #### Key Concepts
 
