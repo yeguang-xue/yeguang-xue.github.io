@@ -38,9 +38,9 @@ last_modified_at: 2020/05/29
 
 #### Services
 
-* Reviewer: *Journal of Applied Mechanics (Transactions of the ASME)*
+* Reviewer: *Journal of Applied Mechanics (Transactions of the ASME)*, *Journal of the Mechanics and Physics of Solids*, *Mechanics of Materials*
 * Teaching Assistant/Grader at Northwestern University: Advanced Fracture Mechanics, Mechanics of Thin Films, Mechanics of Composite Materials, Fluid Mechanics
-* Student Trainer for Northwestern Research Computing Workshops: Introduction to Julia, Introduction to Vim
+* Trainer for Northwestern Research Computing Workshops: Introduction to Julia, Introduction to Vim
 
 
 #### Skills
@@ -51,12 +51,9 @@ last_modified_at: 2020/05/29
 * Full-stack web development: Flask, jQuery, Bootstrap
 
 
-#### Selected Publications
+#### Publications
 
-<ol>
-    <!-- List of Publications -->
-    {% include list-publications.html %}
-</ol>
+Please see a full list of publications [here]({% link publications.md %}).
 
 
 #### Presentations

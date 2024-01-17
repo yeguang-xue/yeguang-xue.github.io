@@ -2,7 +2,7 @@
 layout: post
 title: "Publication: Bio-optoelectronic System for Bladder Treatment"
 category:
-  - News
+  - Research
 tags:
   - Research
 license: CC-BY

@@ -31,6 +31,14 @@ h2 a:hover {
     color: rgb(10, 88, 202);
 }
 
+h4 a {
+    text-decoration: none;
+}
+
+h4 a:hover {
+    text-decoration: underline;
+}
+
 .site-main-container {
     margin-top: 2rem;
     margin-bottom: 2rem;

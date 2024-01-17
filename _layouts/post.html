@@ -9,59 +9,57 @@ layout: site
 
             {% if page.enable-sc-fonts %}
             <h2 class='sc-content'>
-            {% else %}
-            <h2>
-            {% endif %}
-                <a href="{{ site.baseurl }}{{ page.url }}">
-                {% if page.title-display %}
-                    {{ page.title-display }}
                 {% else %}
-                    {{ page.title }}
-                {% endif %}
-                </a>
-            </h2>
-            <div>
-                <i class="fa fa-calendar" aria-hidden="true"></i>
-                &nbsp;
-                <span>{{ page.date | date_to_string }}</span>
-                &nbsp;
-                <i class="fa fa-tags" aria-hidden="true"></i>
-                &nbsp;
-                <span>{{ page.tags | array_to_sentence_string }}</span>
-            </div>
-            <hr>
-            
-            {% if page.enable-sc-fonts %}
-            <div class='sc-content'>
-            {% else %}
-            <div>
-            {% endif %}
-                {{ page.content }}
-            </div>
-
-            {% if page.license %}
+                <h2>
+                    {% endif %}
+                    <a href="{{ site.baseurl }}{{ page.url }}">
+                        {% if page.title-display %}
+                        {{ page.title-display }}
+                        {% else %}
+                        {{ page.title }}
+                        {% endif %}
+                    </a>
+                </h2>
+                <div>
+                    <i class="bi bi-calendar"></i>
+                    <span>{{ page.date | date_to_string }}</span>
+                    &nbsp;
+                    <i class="bi bi-tags"></i>
+                    <span>{{ page.tags | array_to_sentence_string }}</span>
+                </div>
                 <hr>
-                <h4>License</h4>
-                {% if page.license == 'CC-BY' %}
+
+                {% if page.enable-sc-fonts %}
+                <div class='sc-content'>
+                    {% else %}
+                    <div>
+                        {% endif %}
+                        {{ page.content }}
+                    </div>
+
+                    {% if page.license %}
+                    <hr>
+                    <h4>License</h4>
+                    {% if page.license == 'CC-BY' %}
                     {% include license-by.html %}
-                {% endif %}
-                {% if page.license == 'CC-BY-NC-ND' %}
+                    {% endif %}
+                    {% if page.license == 'CC-BY-NC-ND' %}
                     {% include license-by-nc-nd.html %}
-                {% endif %}
-                {% if page.license == 'CC-BY-NC-SA' %}
+                    {% endif %}
+                    {% if page.license == 'CC-BY-NC-SA' %}
                     {% include license-by-nc-sa.html %}
-                {% endif %}
-            {% endif %}
+                    {% endif %}
+                    {% endif %}
 
-            <hr>
-            <h4>Comments</h4>
-            {% include disqus.html %}
+                    <hr>
+                    <h4>Comments</h4>
+                    {% include disqus.html %}
+
+                </div>
+
+                <div class="col-12 col-md-4 col-lg-3 blog-sidebar">
+                    {% include side-panels.html %}
+                </div>
 
         </div>
-
-        <div class="col-12 col-md-4 col-lg-3 blog-sidebar">
-            {% include side-panels.html %}
-        </div>
-
     </div>
-</div>

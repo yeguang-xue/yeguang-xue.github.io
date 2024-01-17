@@ -2,7 +2,7 @@
 layout: post
 title: "Publication: Resettable Microfluidic Sweat Sensor with Chemesthetic Feedback"
 category:
-  - News
+  - Research
 tags:
   - Research
 license: CC-BY

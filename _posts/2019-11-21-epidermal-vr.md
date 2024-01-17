@@ -2,7 +2,7 @@
 layout: post
 title: "Publication: Epidermal VR"
 category:
-  - News
+  - Research
 tags:
   - Research
 license: CC-BY

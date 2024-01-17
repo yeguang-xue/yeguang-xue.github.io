@@ -2,7 +2,7 @@
 layout: post
 title: "Publication: Underwater Skin Sensor for Swimmers"
 category:
-  - News
+  - Research
 tags:
   - Research
 license: CC-BY

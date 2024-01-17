@@ -2,7 +2,7 @@
 layout: post
 title: "Publication: A Dynamically Peprogrammable Surface with Self-Evolving Shape Morphing"
 category:
-  - News
+  - Research
 tags:
   - Research
 license: CC-BY

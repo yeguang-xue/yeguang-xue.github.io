@@ -2,7 +2,7 @@
 layout: post
 title: "Publication: Wearable Microfluidic Device for Sweat Monitoring"
 category:
-  - News
+  - Research
 tags:
   - Research
 license: CC-BY
