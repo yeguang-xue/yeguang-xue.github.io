@@ -11,7 +11,7 @@ license: CC-BY
 
 Recently, I installed Abaqus 2016 on a few different Linux Distros for workstations in my lab and my PC. Here's a summary of the issues I encountered and my solutions.
 
-#### Unsupported Linux Distribution
+## Unsupported Linux Distribution
 
 ABAQUS 2016 officially only has support for SUSE and Red Hat (and CentOS). By default, the installer runs a prerequisites check and an error will return if you runs an unsupported Linux release. I have Fedora 25 for one of my PCs and I successfully installed Abaqus 2016 on it using the following workaround.
 
@@ -35,7 +35,7 @@ sudo dnf install compat-libstdc++-33
 
 Now you should be able to install Abaqus on your favorite Linux distribution.
 
-#### Graphical Issues
+## Graphical Issues
 
 I failed to start the Abaqus/CAE when the installation done. I got an "X Error" telling me "fmd_GLContext::create(): glXCreateContext() failed". My Nvidia driver version was 375.26. I found my problem similar to [this post](https://polymerfem.com/forum/finite-element-modeling/computer-software-aa/3288-glx-error-when-launching-abaqus-on-debian). They also gave a suggestion to run Abaqus using
 
@@ -53,7 +53,7 @@ exec "$basedir"/Xorg "$@" +iglx
 
 Might not be a perfect solution, but hey, now Abaqus can be run natively on my Nvidia GTX 1080!
 
-#### Fonts Issues
+## Fonts Issues
 
 The fonts in my Abaqus/CAE GUI was extremely small and ugly at first. I solved it by installing the 100dpi font in my system:
 

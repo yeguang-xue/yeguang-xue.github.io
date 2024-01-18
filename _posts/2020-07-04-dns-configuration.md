@@ -13,7 +13,7 @@ license: CC-BY
 
 Since I started my home networking project, various applications have been deployed in the local network. For a very long time, I have relied on IP addresses and ports to access different apps. However, as the number of applications increase, assigning domain names becomes a more attractive option. In order to resolve the domain names, one way is to add entries in hosts files of each machine. However, it's time consuming to edit all machines whenever modifications are required. A central domain name server (DNS) addresses this issue. This post introduces how to configure DNS in a local home network and how to use domain names for different applications. 
 
-#### DNS Server Setup
+## DNS Server Setup
 
 The table below listed details of the hosts/applications that will be used.
 
@@ -110,7 +110,7 @@ After making sure everything is correct, start/restart BIND service.
 sudo systemctl start named
 {% endhighlight %}
 
-#### Nginx Setup
+## Nginx Setup
 
 In the last section, I mentioned multiple applications can share the same IP address, distinguished by ports. Nginx can help get rid of ports when accessing the applications. Using the Nginx configuration below, Gitlab application and MediaWiki application are assigned with corresponding domain names. 
 
@@ -142,10 +142,10 @@ server {
 
 If you run into any firewall or SELinux issues, you can check my [earlier post](/blog/2020/04/12/flask-nginx-firewall-selinux-configuration) for solutions. 
 
-#### Setting DNS in Clients
+## Setting DNS in Clients
 
 As a last step, we need to setup clients like desktop PCs, or mobile devices. Simply change the DNS server from automatic to manual and enter the DNS server address `192.168.1.101`. I tried all different mainstream operating systems including Windows, Linux, Mac OS, iOS, Android without having any difficulties. Now test and enjoy your private web applications in your client browser!
 
-#### References
+## References
 
 1. [How To Configure BIND as a Private Network DNS Server on CentOS 7](https://www.digitalocean.com/community/tutorials/how-to-configure-bind-as-a-private-network-dns-server-on-centos-7)

@@ -13,11 +13,11 @@ last_modified_at: 2024/01/15
 
 Automation has always been the dream of any IT person. Today, requirements of fast deployment and iterations further advance the development of IT automation tools. Among the popular automation tools, Ansible is one of the simplest while still providing rich set of functions. Here I would like to give a quick overview of this powerful tool.
 
-#### Why Ansible? 
+## Why Ansible? 
 
 To answer the question why using Ansible, we first need to understand what's wrong without Ansible. Without Ansible, we can still do IT automation using our own shell/python scripts, and actually I myself had been doing things this way for a long time before I tried Ansible. The pain point in such approach is that you need to handle numerous details not directly related to the tasks. E.g., you need to take care of the script uploading, execution, and logging; You need to write code to adapt to each specific environment. As the complexity of tasks increases, the automation script will quickly grow in size. Without careful design the automation scripts will soon be hard to maintain or reuse. Ansible provides an abstraction to hide many details mentioned above, letting us focus on the management tasks. E.g., Ansible greatly simplifies the process of grouping of an inventory of servers/VMs, connecting to a selection of machines and execute commands/modules over SSH. It is designed to be simple and even small personal projects or homelab can benefit from Ansible.
 
-#### Syntax
+## Syntax
 
 Before further diving into Ansible itself, let me briefly cover some Ansible independent syntax. 
 
@@ -31,7 +31,7 @@ Ansible uses [YAML](https://yaml.org) formats for almost all its configurations.
 
 Note that Ansible not only include standard filters/tests shipped with Jinja2, but also add lots of additional Ansible specific filters/tests. Check both Jinja2 Docs[2] and Ansible User Guide[3] when you try to find a specific filter/test that suites your problem.
 
-#### Key Concepts
+## Key Concepts
 
 Now let's come back to Ansible. There are tons of good resources for introduction of Ansible, so here I just hope to outline some key concepts.
 
@@ -49,7 +49,7 @@ In most real-life scenarios, we need to defined a list of tasks for more complic
 
 Though there's much, simply with the concepts/knowledge above, we are already capable of dealing with most common IT automation tasks in Ansible, and get rid of some tedious shell/python scripts. And don't forget there's [Ansible Galaxy](https://galaxy.ansible.com) where lots of roles and playbooks shared by community can be found. 
 
-#### References
+## References
 
 1. [YAML 1.2 Specification](https://yaml.org/spec/1.2/spec.html)
 2. [Jinja Template Designer Documentation](https://jinja.palletsprojects.com/en/2.11.x/templates/)

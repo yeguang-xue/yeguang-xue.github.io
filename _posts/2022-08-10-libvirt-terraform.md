@@ -14,7 +14,7 @@ last_modified_at: 2024/01/15
 
 Terraform is a well-known open-source infrastructure as code (IaC) tool developed by HashiCorp. It allows users to define and provision infrastructure using a declarative configuration language. In homelab environment, it can also interacts with Linux `libvirt` hypervisor with the help of [a third-party provider](https://registry.terraform.io/providers/dmacvicar/libvirt/latest/docs).  This greatly simplifies the homelab VM management with a unified IaC language that can also be used to provision resources on public cloud like AWS, Azure and GCP. In this post, I will briefly introduce how to install `libvirt` on major Linux distros, and how to use terraform to interact with `libvirt` to create/provision VMs. 
 
-#### Install `libvirt` 
+## Install `libvirt` 
 
 For Ubuntu,
 ```shell
@@ -44,7 +44,7 @@ sudo adduser $USER libvirt
 
 In my use cases, `virsh` is used mainly to monitor the VMs. In most situations I prefer to provision VMs with Terraform. 
 
-#### Terraform
+## Terraform
 
 To install terraform, simply download the binary (https://developer.hashicorp.com/terraform/install) and place the executable at a location available on your `$PATH`. The official website also have a list of [tutorials](https://developer.hashicorp.com/terraform/tutorials) to cover the basics of terraform. 
 
@@ -149,7 +149,7 @@ terraform apply
 
 To destroy all the resources, just use `terraform destroy`. 
 
-#### References
+## References
 
 1. https://ubuntu.com/server/docs/virtualization-libvirt
 2. https://developer.hashicorp.com/terraform/tutorials

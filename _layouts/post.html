@@ -1,65 +1,42 @@
 ---
-layout: site
+layout: blank_with_panel
 ---
 
-<div class="container site-main-container">
-    <div class="row">
-        <!-- Post -->
-        <div class="col-12 col-md-8 col-lg-9 blog-main">
+<h1>
+    <a href="{{ site.baseurl }}{{ page.url }}">
+        {% if page.title-display %}
+        {{ page.title-display }}
+        {% else %}
+        {{ page.title }}
+        {% endif %}
+    </a>
+</h1>
+<div>
+    <i class="bi bi-calendar"></i>
+    <span>{{ page.date | date_to_string }}</span>
+    &nbsp;
+    <i class="bi bi-tags"></i>
+    <span>{{ page.tags | array_to_sentence_string }}</span>
+</div>
+<hr>
 
-            {% if page.lang == "cn" %}
-            <h2 class='sc-content'>
-                {% else %}
-                <h2>
-                    {% endif %}
-                    <a href="{{ site.baseurl }}{{ page.url }}">
-                        {% if page.title-display %}
-                        {{ page.title-display }}
-                        {% else %}
-                        {{ page.title }}
-                        {% endif %}
-                    </a>
-                </h2>
-                <div>
-                    <i class="bi bi-calendar"></i>
-                    <span>{{ page.date | date_to_string }}</span>
-                    &nbsp;
-                    <i class="bi bi-tags"></i>
-                    <span>{{ page.tags | array_to_sentence_string }}</span>
-                </div>
-                <hr>
+<div>
+    {{ page.content }}
+</div>
 
-                {% if page.lang == "cn" %}
-                <div class='sc-content'>
-                    {% else %}
-                    <div>
-                        {% endif %}
-                        {{ page.content }}
-                    </div>
+{% if page.license %}
+<hr>
+{% if page.license == 'CC-BY' %}
+{% include license-by.html %}
+{% endif %}
+{% if page.license == 'CC-BY-NC-ND' %}
+{% include license-by-nc-nd.html %}
+{% endif %}
+{% if page.license == 'CC-BY-NC-SA' %}
+{% include license-by-nc-sa.html %}
+{% endif %}
+{% endif %}
 
-                    {% if page.license %}
-                    <hr>
-                    <h4>License</h4>
-                    {% if page.license == 'CC-BY' %}
-                    {% include license-by.html %}
-                    {% endif %}
-                    {% if page.license == 'CC-BY-NC-ND' %}
-                    {% include license-by-nc-nd.html %}
-                    {% endif %}
-                    {% if page.license == 'CC-BY-NC-SA' %}
-                    {% include license-by-nc-sa.html %}
-                    {% endif %}
-                    {% endif %}
-
-                    <hr>
-                    <h4>Comments</h4>
-                    {% include disqus.html %}
-
-                </div>
-
-                <div class="col-12 col-md-4 col-lg-3 blog-sidebar">
-                    {% include side-panels.html %}
-                </div>
-
-        </div>
-    </div>
+<hr>
+<h2>Comments</h2>
+{% include disqus.html %}

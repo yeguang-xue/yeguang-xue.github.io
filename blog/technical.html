@@ -1,4 +1,8 @@
 ---
-layout: category
-category: Technical
+layout: blank_with_panel
+title: Yeguang's blog | Technical
 ---
+
+{% assign section_title = "Technical" %}
+{% assign section_posts = site.categories[section_title] %}
+{% include list-post.html %}

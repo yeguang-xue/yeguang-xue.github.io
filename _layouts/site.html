@@ -28,7 +28,16 @@
 
     {% include header-nav.html %}
 
-    {{ content }}
+
+    {% if page.lang == "cn" %}
+    <div class="container site-main-container">
+        {{ content }}
+    </div>
+    {% else %}
+    <div class="container site-main-container font-sc">
+        {{ content }}
+    </div>
+    {% endif %}
 
     {% include footer.html %}
 

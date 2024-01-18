@@ -5,13 +5,16 @@ disable-ads: True
 last_modified_at: 2020/05/29
 ---
 
-#### Education
+<h1 class="">{{ page.title }}</h1>
+<hr>
+
+## Education
 
 * Ph.D. Mechanical Engineering, Northwestern University, Evanston, IL, USA. (2014 - 2019)
 * B.Eng. Engineering Mechanics (Hons), Zhejiang University, Hangzhou, China. (2010 - 2014)
 
 
-#### Experiences
+## Experiences
 
 * IC Packaging Simulation Engineer, Apple Inc. (2019.12 - Now)
 * Software Engineer Intern, NeuroLux (2019.11 - 2019.12)
@@ -20,7 +23,7 @@ last_modified_at: 2020/05/29
 * Visting Scholar, UCLA (2013.7 - 2013.9)
 
 
-#### Honors and Rewards
+## Honors and Rewards
 
 * Chinese Government Award for Outstanding Self-financed Students Abroad (2020)
 * Terminal Year Fellowship by Northwestern University (2018)
@@ -36,27 +39,36 @@ last_modified_at: 2020/05/29
 * National Scholarship by Ministry of Education of The People's Republic of China (2011)
 
 
-#### Services
+## Services
 
-* Reviewer: *Journal of Applied Mechanics (Transactions of the ASME)*, *Journal of the Mechanics and Physics of Solids*, *Mechanics of Materials*
-* Teaching Assistant/Grader at Northwestern University: Advanced Fracture Mechanics, Mechanics of Thin Films, Mechanics of Composite Materials, Fluid Mechanics
-* Trainer for Northwestern Research Computing Workshops: Introduction to Julia, Introduction to Vim
+* Reviewer: 
+    - *Journal of Applied Mechanics (Transactions of the ASME)*
+    - *Journal of the Mechanics and Physics of Solids*
+    - *Mechanics of Materials*
+* Teaching Assistant/Grader at Northwestern University: 
+    - Advanced Fracture Mechanics
+    - Mechanics of Thin Films
+    - Mechanics of Composite Materials
+    - Fluid Mechanics
+* Workshop Lecturer at Northwestern Research Computing Services: 
+    - Introduction to Vim
+    - Introduction to Julia
 
 
-#### Skills
+## Skills
 
 * Finite element software packages: ABAQUS, ANSYS APDL, COMSOL
 * Molecular dynamics simulation: Lammps, Gromacs
 * Programming Languages/Frameworks: C/C++, Python, Matlab/Octave, Julia, C#/.NET, Bash, SQL
-* Full-stack web development: Flask, jQuery, Bootstrap
+* Full-stack web development(FastAPI, Flask, Vue, Bootstrap)
 
 
-#### Publications
+## Publications
 
 Please see a full list of publications [here]({% link publications.md %}).
 
 
-#### Presentations
+## Presentations
 
 * Reversible Adhesion of Shape Memory Relief Structures and its Application in Transfer Printing, *1st Midwest Mechanics of Materials and Structures workshop* (Champaign, IL, 2015)
 * Mechanical Design of Soft, Wearable Microfluidic Devices, *SES 2017* (Boston, MA, 2017)

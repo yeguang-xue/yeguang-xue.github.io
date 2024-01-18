@@ -13,7 +13,7 @@ last_modified_at: 2024/01/15
 
 When using VMs, we often run into situations that requires expanding the disk size. This post summarizes steps to resize a disk attached to `libvirt` managed VM. 
 
-#### On Host Machine:
+## On Host Machine:
  
 1. Shutdown virtual machine
 ```shell
@@ -30,7 +30,7 @@ sudo qemu-img resize /site/vm/guest-disk.qcow2 +10G
 virsh start guest-vm
 ```
 
-#### Inside Virtual Machine:
+## Inside Virtual Machine:
 
 In some cases, within the VM, filesystem needs to be updated to take advantage of the expanded disk space. For disk type='volume', VM filesystem seems to grow automatically. 
 
