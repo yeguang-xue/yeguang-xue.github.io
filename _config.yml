@@ -4,9 +4,10 @@ plugins:
 
 markdown: kramdown
 highlighter: rouge
-paginate: 3
-paginate_path: "/blog/page:num/"
-permalink: /blog/:year/:month/:day/:title
+
+# paginate: 3
+# paginate_path: "/blog/page/:num/"
+# permalink: /blog/:year/:month/:day/:title
 
 defaults:
   - scope:
