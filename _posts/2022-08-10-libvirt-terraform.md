@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Provision libvirt VMs with Terraform
+title: Provision libvirt Virtual Machines with Terraform
 category:
   - Technical
 tags:
