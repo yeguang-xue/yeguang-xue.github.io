@@ -2,6 +2,7 @@
 layout: blank
 title: List of Publications
 disable-ads: True
+last_modified_at: 2024/01/20
 ---
 
 <h1 class="">{{ page.title }}</h1>
@@ -25,7 +26,7 @@ disable-ads: True
     </div>
 </div>
 
-<ol class="publications-list">
+<ol>
 
 <li>Y Bai, H Wang, <b>Y Xue</b>, Y Pan, J Kim, X Ni, T Liu, Y Yang, M Han, Y Huang, JA Rogers and X Ni, "A dynamically reprogrammable surface with self-evolving shape morphing", <i><b>Nature</b></i> 609, 701-708 (2022)</li>
 <li>Q Yang, T Liu, <b>Y Xue</b>, H Wang, Y Xu, B Emon, M Wu, C Rountree, T Wei and I Kandela, "Ecoresorbable and bioresorbable microelectromechanical systems", <i><b>Nature Electronics</b></i> 5, 526-538 (2022)</li>
@@ -79,3 +80,5 @@ disable-ads: True
 <li><b>Y Xue</b>, Y Zhang, X Feng, S Kim, JA Rogers and Y Huang, "A theoretical model of reversible adhesion in shape memory surface relief structures and its application in transfer printing", <i><b>Journal of the Mechanics and Physics of Solids</b></i> 77, 27-42 (2015)</li>
 
 </ol>
+
+<p class="text-end"> Last updated on {{ page.last_modified_at }} </p>

@@ -67,4 +67,4 @@ Please see a full list of publications [here]({% link publications.md %}).
 * Mechanical Design of Soft, Wearable Microfluidic Devices, *USNC/TAM 2018* (Chicago, IL, 2018)
 * Flow Control in Soft, Wearable Microfluidic Devices, *SES 2018* (Madrid, Spain, 2018)
 
-<p style="text-align:right;"> Last updated on {{ page.last_modified_at }} </p>
+<p class="text-end"> Last updated on {{ page.last_modified_at }} </p>
