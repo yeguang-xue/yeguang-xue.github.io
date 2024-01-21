@@ -8,22 +8,22 @@ tags:
 license: CC-BY
 ---
 
-Our research on a new type of flexible microfluidic device that can adhere to skin for sweat monitoring was published on latest issue of *Science Translational Medicine*. The paper was featured as cover story of this issue. Check details by referring to the paper titled "A Soft, Wearable Microfluidic Device for the Capture, Storage, and Colorimetric Sensing of Sweat" on *Science Translational Medicine* [website](http://scim.ag/2gmFiIz). Also check the following video describing the operation of the sweat microfluidic device:
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
 <div class="embed-responsive embed-responsive-16by9">
 <iframe src="https://www.youtube.com/embed/THuuYpEgfeU?rel=0" allowfullscreen></iframe>
 </div>
 
-Our research on a new type of flexible microfluidic device that can adhere to skin for sweat monitoring was published on latest issue of *Science Translational Medicine*. The paper was featured as cover story of this issue. Check details by referring to the paper titled "A Soft, Wearable Microfluidic Device for the Capture, Storage, and Colorimetric Sensing of Sweat" on *Science Translational Medicine* [website](http://scim.ag/2gmFiIz). Also check the following video describing the operation of the sweat microfluidic device:
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
 <div class="card mb-3">
-  <img class="card-img-top" src="https://i.postimg.cc/zGX60FDm/station-1.jpg" alt="马德里有名的Atocha火车站">
+  <img class="card-img-top" src="https://i.postimg.cc/zGX60FDm/station-1.jpg" alt="a image">
   <div class="card-body">
-    <p class="card-text text-start">马德里有名的Atocha火车站</p>
+    <p class="card-text text-start">a image</p>
   </div>
 </div>
 
-Our research on a new type of flexible microfluidic device that can adhere to skin for sweat monitoring was published on latest issue of *Science Translational Medicine*. The paper was featured as cover story of this issue. Check details by referring to the paper titled "A Soft, Wearable Microfluidic Device for the Capture, Storage, and Colorimetric Sensing of Sweat" on *Science Translational Medicine* [website](http://scim.ag/2gmFiIz). Also check the following video describing the operation of the sweat microfluidic device:
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
 ```bash
 gdisk /dev/sda

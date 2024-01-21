@@ -10,7 +10,7 @@ license: CC-BY
 
 Check our recent publication on *Nature* titled ["Skin-integrated wireless haptic interfaces for virtual and augmented reality"](https://www.nature.com/articles/s41586-019-1687-0). 
 
-<div class="embed-responsive embed-responsive-16by9">
+<div class="ratio ratio-16x9 mb-3">
 <iframe src="https://www.youtube.com/embed/YoEWKkJZTDs" allowfullscreen></iframe>
 </div>
 
