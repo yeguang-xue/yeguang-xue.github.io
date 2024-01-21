@@ -16,15 +16,15 @@ This issue happens when the host key of the server you are reaching does not mat
 
 First toggle the JavaScript console by `Ctrl-Shift-J` (within the Secure Shell App page). To delete a single record with index (the index can be found in the error message), type the following command in the console:
 
-{% highlight js%}
+```js
 term_.command.removeKnownHostByIndex(INDEX);
-{% endhighlight %}
+```
 
 To delete all records:
 
-{% highlight js%}
+```js
 term_.command.removeAllKnownHosts();
-{% endhighlight %}
+```
 
 ## Question: How to import ssh pub/private key identities (and delete them)?
 
@@ -34,9 +34,9 @@ It's trickier To delete a saved identity (ssh key pair). To do this, you can sel
 
 Alternatively, to remove all keys, type the following in the JavaScript console:
 
-{% highlight js%}
+```js
 term_.command.removeDirectory('/.ssh/')
-{% endhighlight %}
+```
 
 #### References
 

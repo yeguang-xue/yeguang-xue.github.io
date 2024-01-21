@@ -2,7 +2,7 @@
 layout: blank
 title: Curriculum Vitae
 disable-ads: True
-last_modified_at: 2020/05/29
+last_modified_at: 2024/01/20
 ---
 
 <h1 class="">{{ page.title }}</h1>
@@ -41,18 +41,9 @@ last_modified_at: 2020/05/29
 
 ## Services
 
-* Reviewer: 
-    - *Journal of Applied Mechanics (Transactions of the ASME)*
-    - *Journal of the Mechanics and Physics of Solids*
-    - *Mechanics of Materials*
-* Teaching Assistant/Grader at Northwestern University: 
-    - Advanced Fracture Mechanics
-    - Mechanics of Thin Films
-    - Mechanics of Composite Materials
-    - Fluid Mechanics
-* Workshop Lecturer at Northwestern Research Computing Services: 
-    - Introduction to Vim
-    - Introduction to Julia
+* Reviewer: *Journal of Applied Mechanics (Transactions of the ASME)*, *Journal of the Mechanics and Physics of Solids*, *Mechanics of Materials*
+* Teaching Assistant/Grader at Northwestern University: Advanced Fracture Mechanics, Mechanics of Thin Films, Mechanics of Composite Materials, Fluid Mechanics
+* Workshop Lecturer at Northwestern Research Computing Services: Introduction to Vim, Introduction to Julia
 
 
 ## Skills

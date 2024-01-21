@@ -12,7 +12,7 @@ Fedora is always known as a cutting edge distribution with frequent updates. I l
 
 For the Nvidia driver on Fedora, simply install the DKMS package and install the Nvidia driver with "-dkms" option.
 
-{% highlight bash%}
+```shell
 sudo dnf install dkms
 sudo sh ./<DRIVER>.run --dkms
-{% endhighlight %}
+```

@@ -1,12 +1,8 @@
 ---
-layout: blank_with_panel
+layout: blank_left_panel
 title: Yeguang's blog
 ---
 
-{% for category in site.categories %}
+{% assign section_posts = site.posts %}
 
-{% assign section_title = category[0] %}
-{% assign section_posts = site.categories[section_title] %}
 {% include list-post.html %}
-
-{% endfor %}

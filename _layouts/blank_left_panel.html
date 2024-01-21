@@ -3,11 +3,13 @@ layout: site
 ---
 
 <div class="row">
+
+    <div class="d-none d-md-block col-12 col-md-4 col-lg-3">
+        {% include panel-left.html %}
+    </div>
+
     <div class="col-12 col-md-8 col-lg-9">
         {{ content }}
     </div>
 
-    <div class="col-12 col-md-4 col-lg-3">
-        {% include side-panels.html %}
-    </div>
 </div>

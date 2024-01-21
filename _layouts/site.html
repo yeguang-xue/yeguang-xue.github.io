@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="{{ page.lang }}">
+<html lang="{{ page.lang }}" data-bs-theme="light">
 
 <head>
     <meta charset="utf-8">
@@ -16,30 +16,66 @@
     <!-- Bootstrap Icons  -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 
-    <link rel="stylesheet" href="{{ site.baseurl }}/css/site.css">
-    <link rel="stylesheet" href="{{ site.baseurl }}/css/syntax.css">
-    <link rel="shortcut icon" href="{{ site.baseurl }}/favicon.ico">
-
-    {% include google-analyitcs.html %}
-
+    <link rel="stylesheet" href="/assets/css/site.css">
+    <link rel="stylesheet" href="/assets/css/syntax.css">
+    <link rel="shortcut icon" href="/assets/favicon.ico">
+    <script src="/assets/js/color-modes.js"></script>
 </head>
 
 <body class="mb-0">
+    <header>
+        <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark border-bottom">
+            <div class="container mb-0">
+                <a href="/" class="navbar-brand d-flex align-items-center mb-0 mb-lg-0 text-white text-decoration-none">
+                    <img src="/assets/images/fish.png" alt="Yeguang Xue" class="rounded-circle" width="32" />
+                    <div class="d-none d-md-block px-2">Yeguang Xue</div>
+                </a>
 
-    {% include header-nav.html %}
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
+                    aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
 
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <ul class="navbar-nav me-auto mb-2 mb-md-0">
+                        <li class="nav-item">
+                            <a class="nav-link" href="/">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/blog/">Archive</a>
+                        </li>
+                    </ul>
+                    <button id="btn_toggleDarkMode" class="bi bi-sun rounded-circle nav-link text-white"
+                        aria-label="Dark Mode" onclick="toggleDarkMode()"></button>
+                </div>
+            </div>
+        </nav>
+    </header>
 
     {% if page.lang == "cn" %}
-    <div class="container site-main-container">
+    <main class="container font-sc">
         {{ content }}
-    </div>
+    </main>
     {% else %}
-    <div class="container site-main-container font-sc">
+    <main class="container ">
         {{ content }}
-    </div>
+    </main>
     {% endif %}
 
-    {% include footer.html %}
+    <footer class="my-4 py-4 border-top">
+        <div class="text-center">
+            Copyright © 2013-2024 Yeguang Xue
+        </div>
+
+        <div class="text-center" data-bs-theme="dark">
+            <a href="https://twitter.com/YeguangXue" aria-label="Twitter" target="_blank"><i class="bi-twitter-x"
+                    style="font-size: 2rem;"></i></a>&nbsp&nbsp
+            <a href="https://www.linkedin.com/in/yeguangxue" aria-label="LinkedIn" target="_blank"><i
+                    class="bi-linkedin" style="font-size: 2rem;"></i></a>&nbsp&nbsp
+            <a href="https://github.com/yeguang-xue" aria-label="Github" target="_blank"><i class="bi-github"
+                    style="font-size: 2rem;"></i></a>
+        </div>
+    </footer>
 
     <!-- Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"

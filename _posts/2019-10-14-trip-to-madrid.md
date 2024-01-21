@@ -24,48 +24,62 @@ license: CC-BY-NC-ND
 
 在马德里的周中两天白天都在会场里听报告，只有晚上有时间出去转转。周五晚上去的是市里的索菲娅王后艺术中心。从我住的旅馆出发有地铁可以到市里，而且下车的站就是非常标志性的Atocha火车站。傍晚时分，车站格外繁忙，不过见惯了国内的车站，倒也不觉得此处有什么特别。
 
-<div class="figure-center-800 mb-3 mb-3">
-<img src="https://i.postimg.cc/zGX60FDm/station-1.jpg">
+<div class="card mb-3">
+  <img class="card-img-top" src="https://i.postimg.cc/zGX60FDm/station-1.jpg" alt="马德里有名的Atocha火车站">
+  <div class="card-body">
+    <p class="card-text text-start">马德里有名的Atocha火车站</p>
+  </div>
 </div>
-<p class="caption-text"> 马德里有名的Atocha火车站 </p>
 
 艺术馆里好像是禁止拍照的，因此手机里只留下一些外景的照片。艺术馆里陈列的画作许多来自于毕加索，达利，和米罗。相较于以前去过的芝加哥Art Institute、洛杉矶Getty Center中印象派画作居多，这里陈列的画作明显更偏现代派。当然我自己是一个绘画的门外汉，唯一还有印象的大概就是巨幅的画作格尔尼卡了。
 
-<div class="figure-center-800 mb-3">
-<img src="https://i.postimg.cc/C5YP2KKz/sofia-1.jpg">
+<div class="card mb-3">
+  <img class="card-img-top" src="https://i.postimg.cc/C5YP2KKz/sofia-1.jpg" alt="索菲娅王后艺术中心外的玻璃电梯">
+  <div class="card-body">
+    <p class="card-text text-start">索菲娅王后艺术中心外的玻璃电梯</p>
+  </div>
 </div>
-<p class="caption-text"> 索菲娅王后艺术中心外的玻璃电梯 </p>
 
-<div class="figure-center-800 mb-3">
-<img src="https://i.postimg.cc/J4M9HqjV/sofia-2.jpg">
+<div class="card mb-3">
+  <img class="card-img-top" src="https://i.postimg.cc/J4M9HqjV/sofia-2.jpg" alt="索菲娅王后艺术中心附近的街头涂鸦">
+  <div class="card-body">
+    <p class="card-text text-start">索菲娅王后艺术中心附近的街头涂鸦</p>
+  </div>
 </div>
-<p class="caption-text"> 索菲娅王后艺术中心附近的街头涂鸦 </p>
 
 马德里的艺术的气息当然远不只是停留在艺术馆里，在附近的街区上，涂鸦之类的随处可见。除此之外，马德里城里广场上，著名的雕塑也是多不胜数。其中太阳门广场位于马德里最热闹繁华的市中心，广场上的熊与草莓树雕塑则是马德里城市的标志。从太阳门广场可以步行至西班牙广场，这个广场本身并不大，但它纪念的塞万提斯作为西班牙文学的代表，让这个广场足以配得上以国家命名。塞万提斯纪念碑上雕塑有其小说中的各种角色，而最中间端坐的正式塞万提斯本人。
 
-<div class="figure-center-800 mb-3">
-<img src="https://i.postimg.cc/RFT8mGLT/sculpture-2.jpg">
+<div class="card mb-3">
+  <img class="card-img-top" src="https://i.postimg.cc/RFT8mGLT/sculpture-2.jpg" alt="太阳门广场和熊与草莓树雕塑">
+  <div class="card-body">
+    <p class="card-text text-start">太阳门广场和熊与草莓树雕塑</p>
+  </div>
 </div>
-<p class="caption-text"> 太阳门广场和熊与草莓树雕塑 </p>
 
-<div class="figure-center-800 mb-3">
-<img src="https://i.postimg.cc/qRrYWWyR/sculpture-1.jpg">
+<div class="card mb-3">
+  <img class="card-img-top" src="https://i.postimg.cc/qRrYWWyR/sculpture-1.jpg" alt="西班牙广场和塞万提斯纪念碑">
+  <div class="card-body">
+    <p class="card-text text-start">西班牙广场和塞万提斯纪念碑</p>
+  </div>
 </div>
-<p class="caption-text"> 西班牙广场和塞万提斯纪念碑 </p>
 
 ## 斗牛
 
 周六整个SES议程结束后，就立刻和和大连理工两个老师一起去看了斗牛表演。作为西班牙的象征，斗牛自然是家喻户晓，然而我此行之前对斗牛其实所知甚少--甚至我一直以为斗牛只是用红布戏耍公牛、而不会真的把牛杀死。事实上，斗牛有一整套标准的流程，从开场的引逗，到重装骑士用长矛穿刺，到上花镖，到最后的刺杀。而这样的流程在那天下午重复了许多遍，一头头开场时勇猛的公牛最终倒在沙场中。这对于初次见识斗牛的我来说确实有些过于暴力血腥，但在场的观众显然已经习以为常，他们挥舞着国旗，不停为场中斗牛士的演出喝彩。斗牛表演也确实凶险万分，即使有种种防护栏，凶狠的公牛还是能常常威胁到斗牛士们，有几次公牛都越过围栏攻击到斗牛士，大家都为之捏了一把冷汗，所幸并没有造成致命伤。与暴力、危险相衬的，则是斗牛代表的英勇、荣耀，每次斗牛结束，斗牛士团队会绕场一周，接受全场观众的欢呼，不难体会斗牛士是多么受到当地人的尊敬。
 
-<div class="figure-center-800 mb-3">
-<img src="https://i.postimg.cc/yN78s6q4/bullfighting-2.jpg">
+<div class="card mb-3">
+  <img class="card-img-top" src="https://i.postimg.cc/yN78s6q4/bullfighting-2.jpg" alt="Ventas斗牛场大门">
+  <div class="card-body">
+    <p class="card-text text-start">Ventas斗牛场大门</p>
+  </div>
 </div>
-<p class="caption-text"> Ventas斗牛场大门 </p>
 
-<div class="figure-center-800 mb-3">
-<img src="https://i.postimg.cc/66FRwZYk/bullfighting-1.jpg">
+<div class="card mb-3">
+  <img class="card-img-top" src="https://i.postimg.cc/66FRwZYk/bullfighting-1.jpg" alt="Ventas斗牛场内景">
+  <div class="card-body">
+    <p class="card-text text-start">Ventas斗牛场内景</p>
+  </div>
 </div>
-<p class="caption-text"> Ventas斗牛场内景 </p>
 
 巧的是，回学校之后，就在实验室聚会上看了一个西班牙斗牛为背景的美国动画电影。要是没有亲眼见过斗牛表演，大概我是没办法理解片中主角公牛对斗牛的恐惧的。可惜现实中的大多数的公牛没办法有动画电影里的好结局。
 
@@ -76,49 +90,65 @@ license: CC-BY-NC-ND
 在马德里的的最后一天，我专程去了远离市区的万达大都会球场。万达球场其实是马竞最近启用的新主场，17年之前马竞的主场都是卡尔德隆球场，也许那里才更像是自己心心念念的
 马竞主场。但终究卡尔德隆已经是旧篇章，等待被拆除，而马竞仍然需要在新的球场继续创造辉煌。有一天也许马竞的球员、甚至主教练西蒙尼，都会慢慢离开球队，但希望马竞的精神能一直随着球队传承下去。
 
-<div class="figure-center-800 mb-3">
-<img src="https://i.postimg.cc/BZxjHzqv/wanda-1.jpg" alt="万达大都会球场外景">
+<div class="card mb-3">
+  <img class="card-img-top" src="https://i.postimg.cc/BZxjHzqv/wanda-1.jpg" alt="万达大都会球场外景">
+  <div class="card-body">
+    <p class="card-text text-start">万达大都会球场外景</p>
+  </div>
 </div>
-<p class="caption-text"> 万达大都会球场外景 </p>
 
 因为我在马德里的那个周末是国家队比赛日，并没有联赛进行，因此得以完整的参观整个球场。能现场亲眼看到那些无数次在电视机转播镜头中出现的场所无疑是令人兴奋的：记者发布会的房间、球员更衣室、球员通道、主教练席。整个参观的过程中我都沉浸在这种欣喜中，很少拍照的我都忍不住到处自拍。
 
-<div class="figure-center-800 mb-3">
-<img src="https://i.postimg.cc/qMwgZC6V/wanda-2.jpg" alt="万达大都会球场内景">
+<div class="card mb-3">
+  <img class="card-img-top" src="https://i.postimg.cc/qMwgZC6V/wanda-2.jpg" alt="万达大都会球场内景">
+  <div class="card-body">
+    <p class="card-text text-start">万达大都会球场内景</p>
+  </div>
 </div>
-<p class="caption-text"> 万达大都会球场内景 </p>
 
-<div class="figure-center-800 mb-3">
-<img src="https://i.postimg.cc/dV0DMtG7/wanda-3.jpg" alt="记者发布会房间">
+<div class="card mb-3">
+  <img class="card-img-top" src="https://i.postimg.cc/dV0DMtG7/wanda-3.jpg" alt="万达大都会球场举行记者发布会的房间">
+  <div class="card-body">
+    <p class="card-text text-start">万达大都会球场举行记者发布会的房间</p>
+  </div>
 </div>
-<p class="caption-text"> 万达大都会球场举行记者发布会的房间 </p>
 
-<div class="figure-center-800 mb-3">
-<img src="https://i.postimg.cc/9FCrpBMY/wanda-4.jpg" alt="记者发布会">
+<div class="card mb-3">
+  <img class="card-img-top" src="https://i.postimg.cc/9FCrpBMY/wanda-4.jpg" alt="记者发布会">
+  <div class="card-body">
+    <p class="card-text text-start">过过记者发布会的瘾</p>
+  </div>
 </div>
-<p class="caption-text"> 过过记者发布会的瘾 </p>
 
-<div class="figure-center-800 mb-3">
-<img src="https://i.postimg.cc/7LG66ssw/wanda-5.jpg" alt="球员更衣室">
+<div class="card mb-3">
+  <img class="card-img-top" src="https://i.postimg.cc/7LG66ssw/wanda-5.jpg" alt="球员更衣室">
+  <div class="card-body">
+    <p class="card-text text-start">球员更衣室</p>
+  </div>
 </div>
-<p class="caption-text"> 球员更衣室 </p>
 
-<div class="figure-center-800 mb-3">
-<img src="https://i.postimg.cc/63CpV7xP/wanda-7.jpg" alt="赛场球员通道">
+<div class="card mb-3">
+  <img class="card-img-top" src="https://i.postimg.cc/63CpV7xP/wanda-7.jpg" alt="赛场球员通道">
+  <div class="card-body">
+    <p class="card-text text-start">赛场球员通道</p>
+  </div>
 </div>
-<p class="caption-text"> 赛场球员通道 </p>
 
-<div class="figure-center-800 mb-3">
-<img src="https://i.postimg.cc/fRgyMnv8/wanda-6.jpg" alt="马竞近几年获得的冠军">
+<div class="card mb-3">
+  <img class="card-img-top" src="https://i.postimg.cc/fRgyMnv8/wanda-6.jpg" alt="马竞近几年获得的冠军">
+  <div class="card-body">
+    <p class="card-text text-start">马竞近几年获得的冠军，其中13-14赛季的西甲冠军无疑是其中分量最重的</p>
+  </div>
 </div>
-<p class="caption-text"> 马竞近几年获得的冠军，其中13-14赛季的西甲冠军无疑是其中分量最重的 </p>
 
 除了万达球场之外，马竞球迷另一个圣地大概就是海神广场了。据说球队夺冠之后，球迷们都会在此游行庆祝，所以我一直以为这是一个可以容纳许多人的大广场。但实际上这里只是一个环形交叉路口的中心，没有活动的时候这里似乎完全不是为游客准备的。我也只能想象万千球迷在此聚会的盛况了。
 
-<div class="figure-center-800 mb-3">
-<img src="https://i.postimg.cc/zXQYBJ9H/sculpture-3.jpg" alt="海神广场">
+<div class="card mb-3">
+  <img class="card-img-top" src="https://i.postimg.cc/zXQYBJ9H/sculpture-3.jpg" alt="海神广场">
+  <div class="card-body">
+    <p class="card-text text-start">海神广场，夺冠之后马竞球迷会在此地聚会庆祝</p>
+  </div>
 </div>
-<p class="caption-text"> 海神广场，夺冠之后马竞球迷会在此地聚会庆祝 </p>
 
 这些年马竞崛起，作为马竞球迷本该是幸福的，但其实这些年令人心酸落泪的时刻也并不少。两次与欧冠失之交臂，大概是马竞最悲情的时刻了，随着加比、戈丁等等曾经的球队主力因年龄离队，球队的阵容也面临重建的压力。18年的时候，马竞当时的战绩也并不是非常理想，还有格里兹曼转会的肥皂剧。但起起落落常有，重要的是失败之后能重拾拼搏的勇气，我想终有一天，欧冠也会被马竞收入囊中的。
 

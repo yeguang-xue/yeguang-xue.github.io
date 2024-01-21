@@ -29,7 +29,7 @@ As you can see from the table, multiple applications may share the same physical
 
 `/etc/named.conf`
 
-{% highlight configuration%}
+```conf
 options {
     # listen-on port 53 { 127.0.0.1; };
     # listen-on-v6 port 53 { ::1; };
@@ -47,11 +47,11 @@ zone "1.168.192.in-addr.arpa" {
     type master;
     file "/etc/named/zones/db.192.168.1";  # 192.168.1.0/24 subnet
 };
-{% endhighlight %}
+```
 
 `/etc/named/zones/db.homelab.net`
 
-{% highlight configuration%}
+```conf
 TTL    604800
 @       IN      SOA     ns.homelab.net. admin.homelab.net. (
                   3     ; Serial
@@ -71,11 +71,11 @@ web.homelab.net.         IN      A      192.168.1.102
 gitlab.homelab.net.      IN      A      192.168.1.102
 wiki.homelab.net.        IN      A      192.168.1.102
 
-{% endhighlight %}
+```
 
 `/etc/named/zones/db.192.168.1`
 
-{% highlight configuration%}
+```conf
 $TTL    604800
 @       IN      SOA     homelab.net. admin.homelab.net. (
                               3         ; Serial
@@ -91,30 +91,30 @@ $TTL    604800
 102   IN      PTR     web.homelab.net.     ; 192.168.1.102
 102   IN      PTR     gitlab.homelab.net.  ; 192.168.1.102
 102   IN      PTR     wiki.homelab.net.    ; 192.168.1.102
-{% endhighlight %}
+```
 
 The following commands can be used to check the syntax:
 
-{% highlight bash%}
+```shell
 sudo named-checkconf
-{% endhighlight %}
+```
 
-{% highlight bash%}
+```shell
 sudo named-checkzone /etc/named/zones/db.homelab.net
 sudo named-checkzone /etc/named/zones/db.192.168.1
-{% endhighlight %}
+```
 
 After making sure everything is correct, start/restart BIND service. 
 
-{% highlight bash%}
+```shell
 sudo systemctl start named
-{% endhighlight %}
+```
 
 ## Nginx Setup
 
 In the last section, I mentioned multiple applications can share the same IP address, distinguished by ports. Nginx can help get rid of ports when accessing the applications. Using the Nginx configuration below, Gitlab application and MediaWiki application are assigned with corresponding domain names. 
 
-{% highlight nginx%}
+```nginx
 server {
     listen       80;
     server_name  gitlab.homelab.net;
@@ -125,9 +125,9 @@ server {
         proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for; 
     }
 }
-{% endhighlight %}
+```
 
-{% highlight nginx%}
+```nginx
 server {
     listen       80;
     server_name  wiki.homelab.net;
@@ -138,7 +138,7 @@ server {
         proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for; 
     }
 }
-{% endhighlight %}
+```
 
 If you run into any firewall or SELinux issues, you can check my [earlier post](/blog/2020/04/12/flask-nginx-firewall-selinux-configuration) for solutions. 
 

@@ -1,7 +1,11 @@
 <h1>
+    {% if section_title %}
     <a href="{{ site.baseurl }}{{ section_title }}">
         {{ section_title }}
     </a>
+    {% else %}
+    Archive
+    {% endif %}
 </h1>
 <hr>
 

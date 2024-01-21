@@ -39,9 +39,9 @@ As I mentioned early, Ansible is designed to be simple and requires minimal depe
 
 Once you the inventory ready, you can already apply ad-hock commands on a single host or a group of hosts. Other than simple shell commands, you can call Ansible **Modules**. Ansible comes with lots of pre-defined modules for various tasks. E.g., `ping` module is used to test connection with remote hosts:
 
-{% highlight bash%}
+```shell
 ansible webservers -m ping
-{% endhighlight %}
+```
 
 In latest Ansible version (2.10), modules are grouped into **Collections** [4]. 
 
