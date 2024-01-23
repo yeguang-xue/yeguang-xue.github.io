@@ -45,7 +45,9 @@ With two devices with 2.5GBASE-T Ethernet adapters, theoretically you already ha
 
 Now enjoy faster connection to your NAS!
 
-<div class="figure-center-240 mb-3">
-<img src="https://i.postimg.cc/hP9gMDvt/Speed.png" alt="speed showcase of multi-gigabit network">
+<div class="card mb-3">
+  <img class="card-img-top" src="https://i.postimg.cc/hP9gMDvt/Speed.png" alt="Speed test of multi-gigabit network">
+  <div class="card-body">
+    <p class="card-text text-start">Speed test of multi-gigabit network</p>
+  </div>
 </div>
-

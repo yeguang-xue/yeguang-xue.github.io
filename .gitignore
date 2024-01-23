@@ -8,6 +8,5 @@ _private/
 .asv
 *.*~
 
-## Test
-lab.html
-lab/
+## Mac
+.DS_Store
