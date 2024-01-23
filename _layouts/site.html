@@ -6,6 +6,20 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="author" content="Yeguang Xue" />
+
+    {% assign description = page.title %}
+
+    {% if page.layout == "post" %}
+    {% assign description = "Blog post: " | append: description %}
+    {% endif %}
+
+    {% if page.tags %}
+    {% assign tags_description = page.tags | array_to_sentence_string | prepend: "Keywords: " %}
+    {% assign description = ", " | prepend: description %}
+    {% assign description = tags_description | prepend: description %}
+    {% endif %}
+
+    <meta name="description" content="{{ description }}">
     <meta property="og:site_name" content="Yeguang Xue">
 
     <title>{{ page.title }}</title>
