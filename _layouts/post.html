@@ -47,11 +47,11 @@ layout: site
 
     <div class="d-none d-md-block col-12 col-md-4 col-lg-3">
         <div class="p-4 border-start">
-            <h1 class="h5">
+            <h2 class="h5">
                 Recommended
-            </h1>
+            </h2>
 
-            <ul class="">
+            <ul>
                 {% assign cat = page.categories[0] %}
                 {% for post in site.categories[cat] limit:5 %}
                 <li>
