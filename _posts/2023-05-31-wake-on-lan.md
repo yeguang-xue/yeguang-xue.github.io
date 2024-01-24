@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Wake on Lan
+title: Energy Saving with Wake-on-Lan
 category:
   - Technical
 tags:
@@ -11,7 +11,7 @@ license: CC-BY
 last_modified_at: 2024/01/15
 ---
 
-**Wake-on-LAN (WoL)** is a technology that allows you to wake up a sleeping or powered-off computer over a network. Using Wake-on-LAN helps saving energy by allowing user to activate hardwares only when needed. This short post is a quick log of how I enabled WoL for my workstation PC. 
+**Wake-on-LAN (WoL)** is a technology that allows you to wake up a sleeping or powered-off PC over a network. Using WoL allows user put power hungry hardwares into sleep modes and activate them only when needed. This short post is a quick log of how I setup WoL for my workstation PC. 
 
 ## Motherboard BIOS Setup
 

@@ -20,13 +20,13 @@
     <ul class="no-bullet">
 
         <li>
-            <a href="{{ site.baseurl }}/blog/list"><i class="bi bi-file-post-fill me-2"></i> All Posts</a>
+            <a href="{{ site.baseurl }}/blog/list"><i class="bi bi-file-post-fill me-2"></i>All Posts</a>
         </li>
 
         {% for category in site.categories %}
         <li>
             <a href="{{ site.baseurl }}/blog/{{ category[0] | downcase | replace: ' ', '-' }}"><i
-                    class="bi bi-file-post-fill me-2"></i> {{ category[0] }}</a>
+                    class="bi bi-file-post-fill me-2"></i>{{ category[0] }}</a>
         </li>
         {% endfor %}
     </ul>
@@ -35,16 +35,19 @@
 
     <ul class="no-bullet">
         <li><a href="https://scholar.google.com/citations?user=Dx2UZ0sAAAAJ&hl=en" target="_blank">
-                <i class="bi-google me-2"></i> Google Scholar</a>
-        </li>
-        <li><a href="https://twitter.com/YeguangXue" target="_blank">
-                <i class="bi-twitter-x me-2"></i> Twitter</a>
+                <i class="bi bi-google me-2"></i>Google Scholar</a>
         </li>
         <li><a href="https://github.com/yeguang-xue" target="_blank">
-                <i class="bi-github me-2"></i> GitHub</a>
+                <i class="bi bi-github me-2"></i>GitHub</a>
         </li>
         <li><a href="https://www.linkedin.com/in/yeguangxue" target="_blank">
-                <i class="bi-linkedin me-2"></i> LinkedIn</a>
+                <i class="bi bi-linkedin me-2"></i>LinkedIn</a>
+        </li>
+        <li><a href="https://twitter.com/YeguangXue" target="_blank">
+                <i class="bi bi-twitter-x me-2"></i>Twitter</a>
+        </li>
+        <li><a href="https://mastodon.social/@yxue" target="_blank">
+                <i class="bi bi-mastodon me-2"></i>Mastodon</a>
         </li>
     </ul>
 </div>
