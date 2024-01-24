@@ -81,7 +81,7 @@ The above commands will modify Nginx configs automatically to enable HTTPS on po
 SSH tunneling is the easiest way to establish a secure channel between local server and proxy server without any additional software. To get started, launch the following command to create a reverse SSH port forwarding:
 
 ```shell
-ssh -R [remote_port]:localhost:[local_port] user@remote_server
+ssh -R <remote_port>:localhost:<local_port> user@remote_server
 ```
 
 However, I typically only use SSH tunneling for testing purposes due to the following concerns: 

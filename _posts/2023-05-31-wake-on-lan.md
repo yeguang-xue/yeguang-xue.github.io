@@ -35,7 +35,7 @@ sudo apt install ethtool
 To query WoL setting, use command: 
 
 ```shell
-ethtool [interface] | grep Wake-on
+ethtool <interface> | grep Wake-on
 ```
 
 The output looks like the following:
@@ -47,7 +47,7 @@ Wake-on: g
 The value `g` is required for WoL to work. If the value shows `d` (disabled) , you will need to enable WoL with the commands below. [This tutorial](https://wiki.archlinux.org/title/Wake-on-LAN) also lists how to make the setting persistent. 
 
 ```shell
-ethtool -s [interface] wol g
+ethtool -s <interface> wol g
 ```
 
 The workstation PC is now ready. But before you turn off the workstation, don't forget to take a note of the interface Mac address, which will be needed when you try to wake up. 
@@ -55,7 +55,7 @@ The workstation PC is now ready. But before you turn off the workstation, don't 
 On a machine within the same LAN, simply enter the following command to send **Magic Packets** and wake up the desired workstation PC. 
 
 ```shell
-wakeonlan -i [IP address of PC] [Mac address of PC]
+wakeonlan -i <IP address of PC> <Mac address of PC>
 ```
 
 ## References
