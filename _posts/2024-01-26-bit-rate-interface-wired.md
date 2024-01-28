@@ -18,7 +18,11 @@ When purchasing computer hardwares, understanding bit rates of different interfa
 
 Within a PC, communication between CPU and DRAM is the most important. The bandwidth and latency of memory access have a direct impact on the system performance.  
 
-DDR (double data rate) SDRAM are the most common in modern PC/laptops, and recent versions on the market include DDR3, DDR4, and DDR5. DDR. Double data rate means the bus transfers data on both the rising and falling edges of the clock signal, meaning transfer rate is twice the memory bus clock rate $\text{Transfer rate} = \text{Bus clock rate} × 2$. A simple formula for bandwidth (bytes/s) of a DDR memory module is given by $\text{Transfer rate} × 64 (\text{number of bits transferred}) / 8 (\text{number of bits/byte})$. For a DDR4 3200 memory, 3200 marks the transfer rate, and the bandwidth is simply $3200×64/8=25600 MB/s$.  DDR memory modules some in DIMM form factor in most desktops and SODIMM form factor for laptops or mini PCs. Different number of pins are used for different DDR versions. 
+DDR (double data rate) SDRAM are the most common in modern PC/laptops, and recent versions on the market include DDR3, DDR4, and DDR5. DDR. Double data rate means the bus transfers data on both the rising and falling edges of the clock signal, meaning transfer rate is twice the memory bus clock rate. A simple formula for bandwidth (bytes/s) of a DDR memory module is given by 
+
+$$\text{Transfer rate} × 64 (\text{number of bits transferred}) / 8 (\text{number of bits/byte})$$
+
+For a DDR4 3200 memory, 3200 marks the transfer rate, and the bandwidth is simply $3200×64/8=25600 MB/s$.  DDR memory modules some in DIMM form factor in most desktops and SODIMM form factor for laptops or mini PCs. Different number of pins are used for different DDR versions. 
 
 Besides DDR,  LPDDR is a technology more appropriate for the mobile application (smart phones). In 2020, Apple launched M1 series of Apple silicon SoC -- which also packs LPDDR5 integrated memory on package. The whole industry was surprised by the great performance and efficiency. Recently Intel also follows by using LPDDR5X on its latest Lunar Lake CPUs. Below are a list of LPDDR transfer rates per pin. 
 
@@ -98,3 +102,5 @@ This post summarizes common wired interfaces and their bit rates. When talking a
 3. [Wikipedia: Compute Express Link](https://en.wikipedia.org/wiki/Compute_Express_Link)
 4. [Apple introduces M2 Ultra](https://www.apple.com/newsroom/2023/06/apple-introduces-m2-ultra/)
 5. [What is Cat7 - And Why You Don’t Need It](https://www.cablematters.com/Blog/Networking/what-is-cat7-and-why-you-don-t-need-it)
+
+{% include js-mathjax.html %}
