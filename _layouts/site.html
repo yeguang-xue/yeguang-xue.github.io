@@ -2,17 +2,16 @@
 <html lang="{{ page.lang }}" data-bs-theme="light">
 
 <head>
+    {% include license-by.html %}
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="author" content="Yeguang Xue" />
 
     {% assign description = page.title %}
-
     {% if page.layout == "post" %}
     {% assign description = "Blog post: " | append: description %}
     {% endif %}
-
     {% if page.description %}
     {% assign description = ", " | prepend: description %}
     {% assign description = page.description | prepend: description %}
