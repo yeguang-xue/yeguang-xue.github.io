@@ -3,24 +3,31 @@
 
 <head>
     {% include google-analyitcs.html %}
+    <meta property="og:site_name" content="Yeguang Xue">
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="author" content="Yeguang Xue" />
 
+    {% if page.lang == "zh-CN" %}
+    <meta name="author" content="Yeguang Xue|薛烨光" />
+    {% else %}
+    <meta name="author" content="Yeguang Xue" />
+    {% endif %}
+
+    {% if page.description %}
+    {% assign description = page.description %}
+    {% else %}
     {% assign description = page.title %}
     {% if page.layout == "post" %}
-    {% assign description = "Blog post: " | append: description %}
+    {% assign description = "Blog post on " | append: description %}
     {% endif %}
-    {% if page.description %}
-    {% assign description = ", " | prepend: description %}
-    {% assign description = page.description | prepend: description %}
     {% endif %}
-
     <meta name="description" content="{{ description }}">
-    <meta property="og:site_name" content="Yeguang Xue">
 
+    {% if page.title-display %}
+    <title>{{ page.title-display }}</title>
+    {% else %}
     <title>{{ page.title }}</title>
+    {% endif %}
 
     <!-- Bootstrap compiled and minified CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
@@ -54,7 +61,10 @@
                             <a class="nav-link" href="/">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="/blog/">Archive</a>
+                            <a class="nav-link" href="/about">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/blog">Archive</a>
                         </li>
                     </ul>
                     <button id="btn_toggleDarkMode" class="bi bi-sun rounded-circle nav-link text-white"
@@ -64,8 +74,8 @@
         </nav>
     </header>
 
-    {% if page.lang == "cn" %}
-    <main class="container font-sc">
+    {% if page.lang == "zh-CN" %}
+    <main class="container font-zh">
         {{ content }}
     </main>
     {% else %}

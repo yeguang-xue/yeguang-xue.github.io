@@ -1,6 +1,6 @@
 ---
 layout: post
-lang: cn
+lang: zh-CN
 title: Be a Hard-core Player in Life (Chinese)
 title-display: 2019新年寄语：做人生的硬核玩家
 category:

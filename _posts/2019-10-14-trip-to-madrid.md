@@ -1,6 +1,6 @@
 ---
 layout: post
-lang: cn
+lang: zh-CN
 title: Trip to Madrid (Chinese)
 title-display: 马德里行纪
 category:
