@@ -8,7 +8,7 @@ tags:
   - Linux
   - DevOps
 license: CC-BY
-last_modified_at: 2024/01/15
+last_modified_at: 2024/02/02
 ---
 
 Automation has always been the dream of any IT person. Today, requirements of fast deployment and iterations further advance the development of IT automation tools. Among the popular automation tools, Ansible is one of the simplest while still providing rich set of functions. Here I would like to give a quick overview of this powerful tool.
@@ -19,7 +19,7 @@ To answer the question why using Ansible, we first need to understand what's wro
 
 ## Syntax
 
-Before further diving into Ansible itself, let me briefly cover some Ansible independent syntax. 
+Before further diving into Ansible itself, let me briefly cover the syntax used by Ansible playbooks (the configuration management language of Ansible). 
 
 Ansible uses [YAML](https://yaml.org) formats for almost all its configurations. Many in web development field may have already been familiar with JSON, YAML is yet another similar format for describing data, but intended to be more human-readable. E.g., Python style indentation is used to indicate nesting. Lists and dictionaries are still key data structures. List members are denoted by leading hyphen (-) and Key/value pairs are separated by colon space (colon must be followed by space). Full spec of YAML format can be found on the official YAML web site [1]. 
 
@@ -35,19 +35,23 @@ Note that Ansible not only include standard filters/tests shipped with Jinja2, b
 
 Now let's come back to Ansible. There are tons of good resources for introduction of Ansible, so here I just hope to outline some key concepts.
 
-As I mentioned early, Ansible is designed to be simple and requires minimal dependencies. It is only required to be installed on a controlled node, and all remote hosts can be managed through SSH (most commonly). **Inventory** is a list of remote hosts to be managed, including the hostnames and other meta info. Ansible provides a way to group the hosts so that you can easily apply different management tasks on one group, or intersection/union of multiple groups. 
+As I mentioned early, Ansible is designed to be simple and requires minimal dependencies. It is only required to be installed on a **Controlled Node**, and all remote hosts will be managed through SSH (most commonly).
 
-Once you the inventory ready, you can already apply ad-hock commands on a single host or a group of hosts. Other than simple shell commands, you can call Ansible **Modules**. Ansible comes with lots of pre-defined modules for various tasks. E.g., `ping` module is used to test connection with remote hosts:
+**Inventory** is a list of remote hosts to be managed, including the hostnames and other meta info. In the inventory file, remote hosts can be grouped so that you can easily apply different management tasks on different groups, or intersection/union of multiple groups. 
+
+Once you the inventory ready, you can already apply ad-hock commands on a single host or a group of hosts. The units of code in Ansible is called **Modules**, which are predefined task. Ansible comes with lots of pre-defined modules for various tasks. E.g., `ping` module is used to test connection with remote hosts:
 
 ```shell
 ansible webservers -m ping
 ```
 
-In latest Ansible version (2.10), modules are grouped into **Collections** [4]. 
+In latest Ansible version (2.10), modules are grouped into **Collections** with different namespaces. E.g., `ping` module belong to `Ansible.Builtin` collection.
 
-In most real-life scenarios, we need to defined a list of tasks for more complicated applications and **Playbook** is exactly for this purpose. It is an ordered lists of tasks that can be saved and run repeatedly. Moreover, playbooks can realize dynamic features by harnessing the power of variables, conditionals, and loops. And one can further modularize the tasks with **Roles**. 
+In real-life scenarios, we typically need to define a list of tasks for more complicated applications and **Playbook** is exactly for this purpose. In last section, we already covered the YAML syntax for Ansible playbooks. An Ansible playbook contains an ordered lists of tasks that can be saved and run repeatedly. Moreover, playbooks can realize dynamic features by harnessing the power of variables, conditionals, and loops. And one can further modularize the tasks with **Roles**. 
 
-Though there's much, simply with the concepts/knowledge above, we are already capable of dealing with most common IT automation tasks in Ansible, and get rid of some tedious shell/python scripts. And don't forget there's [Ansible Galaxy](https://galaxy.ansible.com) where lots of roles and playbooks shared by community can be found. 
+## Conclusion
+
+Though there's much we didn't cover in this post, simply with the concepts/knowledge above, we are already capable of dealing with many common IT automation tasks in Ansible, and get rid of some tedious shell/python scripts. And don't forget there's [Ansible Galaxy](https://galaxy.ansible.com) where lots of roles and playbooks shared by community can be found. 
 
 ## References
 
